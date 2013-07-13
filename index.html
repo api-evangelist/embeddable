@@ -1,79 +1,115 @@
-<!DOCTYPE html>
-<html>
+---
+layout: page
+title: Embeddable
+---
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Embeddable : This is the embeddable project." />
+<h1>Embeddable</h1>
+<p><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/bw-embeddable.png" width="290" align="right" style="padding: 15px;" /></p>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<p>Embeddable is focused on tools that provide copy and paste code, that syndicates and distributes data and content around the web.  This site focuses on using embeddable tools in the name of APIs, but not always directly using APIs for driving the embeddable tools.</p>
 
-    <title>Embeddable</title>
-  </head>
+<p>Commonly known embeddable tools are the Twitter button, Facebook like and others buttons, badges and widgets.  Usually embeddable tools are JavaScript which lends itself to the largest potential being a client side scripting language, but embeddable tools can be as simple as iFrame, HTML + CSS or even a simple image.</p>
 
-  <body>
+<p>The goal of this project is to study how approaches to embeddable tools can be applied as part of an API ecosystem strategy. There are two sides of the embeddable coin, one for API providers and the other for ApI consumers.</p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/kinlane/embeddable">View on GitHub</a>
+<p>Embeddable tools are not just for developers, they can be copy / pasted and reverse engineered by non-developers, making embeddable tools very powerful among the power user group.</p>  
 
-          <h1 id="project_title">Embeddable</h1>
-          <h2 id="project_tagline">This is the embeddable project.</h2>
+<p>While Twitter's success is often claimed to be owned by the developer community, it was the ability to share, retweet and syndicate API driven, Twitter resources across the Internet.</p>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/kinlane/embeddable/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/kinlane/embeddable/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+<p>A successful embeddable API strategy starts here.</p>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<!-- Begin List API Design building blocks--->
+{% raw  %}
+<script id="buildingBlockListingTemplate" type="text/template">       
+    <li style="list-style: none; padding: 30px; border: 0px solid #000;">
+        <img src="{{image}}" width="75" align="left" style="padding: 15px;" /><strong>{{name}}</strong> - {{summary}}
+    </li>                                                                                               
+</script>
+{% endraw %}
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p><a id="jsonlink" href="data/buildingblocks.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-json-data-store.png" align="right" width="50" style="padding-top: 10px;" /></a></p>
+<h1>Building Blocks</h1>
+<div style="padding-left: 10px; padding-right: 10px; width:550px;">
+     <ul id="buildingBlockListing" style="padding-left: 30px;"></ul>
+</div>  
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<script type="text/javascript">
+function listCompanies()
+    {
+    $.getJSON('data/buildingblocks.json', function(data) {
+        toggle = 0;
+         $.each(data['buildingblocks'], function(key, val) {
+            var template = $('#buildingBlockListingTemplate').html();
+            var html = Mustache.to_html(template, val);
+            $('#buildingBlockListing').append(html);                          
+            });
+        });
+    } 
+listCompanies();
+</script>
+<!-- End List API Design building blocks--->
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<!-- Begin List API Design companies--->
+{% raw  %}
+<script id="companyListingTemplate" type="text/template">       
+    <li style="list-style: none; padding: 30px; border: 0px solid #000;">
+        <a href="companies-detail.html?id={{id}}"><img src="{{logo}}" width="200" align="left" style="padding: 15px;" /></a>
+        <a href="companies-detail.html?id={{id}}" style="color: #000;"><strong>{{name}}</strong></a> - {{summary}}... <a href="companies-detail.html?id={{id}}">details</a>.
+    </li>                                                                                               
+</script>
+{% endraw %}
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<p><a id="jsonlink" href="data/companies.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-json-data-store.png" align="right" width="50" style="padding-top: 10px;" /></a></p>
+<h1>Companies</h1>
+<div style="padding-left: 10px; padding-right: 10px; width:550px;">
+     <ul id="companyListing" style="padding-left: 30px;"></ul>
+</div>  
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<script type="text/javascript">
+function listCompanies()
+    {
+    $.getJSON('data/companies.json', function(data) {
+        toggle = 0;
+         $.each(data['company'], function(key, val) {
+            var template = $('#companyListingTemplate').html();
+            var html = Mustache.to_html(template, val);
+            $('#companyListing').append(html);                          
+            });
+        });
+    } 
+listCompanies();
+</script>
+<!-- End List API Design companies--->
+<hr />
+<!-- Begin List API Design companies--->
+{% raw  %}
+<script id="toolListingTemplate" type="text/template">       
+    <li style="list-style: none; padding: 30px; border: 0px solid #000;">
+        <a href="tools-detail.html?id={{id}}"><img src="{{logo}}" width="200" align="left" style="padding: 15px;" /></a>
+        <a href="tools-detail.html?id={{id}}" style="color: #000;"><strong>{{name}}</strong></a> - {{summary}}... <a href="tools-detail.html?id={{id}}">details</a>.
+    </li>                                                                                               
+</script>
+{% endraw %}
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<p><a id="jsonlink" href="data/tools.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-json-data-store.png" align="right" width="50" style="padding-top: 10px;" /></a></p>
+<h1>Tools</h1>
+<div style="padding-left: 10px; padding-right: 10px; width:550px;">
+     <ul id="toolListing" style="padding-left: 30px;"></ul>
+</div>  
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<script type="text/javascript">
+function listTools()
+    {
+    $.getJSON('data/tools.json', function(data) {
+        toggle = 0;
+         $.each(data['tools'], function(key, val) {
+            var template = $('#toolListingTemplate').html();
+            var html = Mustache.to_html(template, val);
+            $('#toolListing').append(html);                          
+            });
+        });
+    } 
+listTools();
+</script>
+<!-- End List API Design companies--->
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Embeddable maintained by <a href="https://github.com/kinlane">kinlane</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>
