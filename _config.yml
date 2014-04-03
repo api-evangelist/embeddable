@@ -1,5 +1,7 @@
 title : Embeddable
 
+markdown: kramdown
+
 safe: true
 lsi: false
 pygments: true
