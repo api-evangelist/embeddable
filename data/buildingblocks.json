@@ -1,1 +1,24 @@
-{"buildingblocks":[{"id":"522","name":"oEmbed","summary":"oEmbed is a format for allowing an embedded representation of a URL on third party sites. The simple API allows a website to display embedded content (such as photos or videos) when a user posts a link to that resource, without having to parse the resource directly.","details":"oEmbed is a format for allowing an embedded representation of a URL on third party sites. The simple API allows a website to display embedded content (such as photos or videos) when a user posts a link to that resource, without having to parse the resource directly.","image":"http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/building-blocks\/oembed-logo.png","tags":"Embeddable"},{"id":"521","name":"Open Graph Protocol","summary":"The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.While many different technologies and schemas exist and could be combined together, there isn't a single technology which provides enough information to richly represent any web page withi","details":"The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.While many different technologies and schemas exist and could be combined together, there isn't a single technology which provides enough information to richly represent any web page within the social graph. The Open Graph protocol builds on these existing technologies and gives developers one thing to implement. Developer simplicity is a key goal of the Open Graph protocol which has informed many of the technical design decisions.","image":"http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/building-blocks\/open-graph-logo.png","tags":"Embeddable,Facebook"}],"published":"11\/06\/2014"}
+[
+	{
+		"building_block_id": "521",
+		"building_block_category_id": "77",
+		"name": "Open Graph Protocol",
+		"about": "<p>The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.&nbsp;While many different technologies and schemas exist and could be combined together, there isn't a single technology which provides enough information to richly represent any web page within the social graph. The Open Graph protocol builds on these existing technologies and gives developers one thing to implement. Developer simplicity is a key goal of the Open Graph protocol which has informed many of the technical design decisions.</p>",
+		"category_id": "77",
+		"category": "Embed",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/open-graph-logo.png",
+		"image_width": "200",
+		"sort_order": "0"
+	},
+	{
+		"building_block_id": "522",
+		"building_block_category_id": "77",
+		"name": "oEmbed",
+		"about": "<p><span>oEmbed is a format for allowing an embedded representation of a URL on third party sites. The simple API allows a website to display embedded content (such as photos or videos) when a user posts a link to that resource, without having to parse the resource directly.</span></p>",
+		"category_id": "77",
+		"category": "Embed",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/oembed-logo.png",
+		"image_width": "200",
+		"sort_order": "0"
+	}
+]
