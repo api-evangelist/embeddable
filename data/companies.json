@@ -73,5 +73,20 @@
 		"logo_width": "0",
 		"screenshot": "",
 		"tags": null
+	},
+	{
+		"id": "190",
+		"name": "Embedly",
+		"summary": false,
+		"details": "",
+		"website": "http://embed.ly/",
+		"twitter": "https://twitter.com/embedly",
+		"github": "https://github.com/embedly",
+		"blog": "https://twitter.com/weogeostatus",
+		"blogrss": "view-source:http://blog.embed.ly/rss",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/embedly-logo.png",
+		"logo_width": "200",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/embedly-logo.png",
+		"tags": null
 	}
 ]
