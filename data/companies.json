@@ -2,32 +2,32 @@
 	{
 		"id": "1814",
 		"name": "AddThis",
-		"summary": "AddThis the new brand name for Clearspring Technologies is the leader in socially connecting publishers services and advertisers to audiences on the open web Reaching more than 13 billion unique users monthly AddThisrsquo social tools and analytics are used on more than 14 million unique domains to distribute and track digital content such as web pages widgets and videos to social networks bookmar",
-		"details": "AddThis the new brand name for Clearspring Technologies is the leader in socially connecting publishers services and advertisers to audiences on the open web Reaching more than 13 billion unique users monthly AddThisrsquo social tools and analytics are used on more than 14 million unique domains to distribute and track digital content such as web pages widgets and videos to social networks bookmarking sites blogs and more To learn more visit AddThiscom",
+		"summary": false,
+		"details": "",
 		"website": "http://www.addthis.com/",
 		"twitter": "https://twitter.com/addthis",
 		"github": "",
 		"blog": "http://www.addthis.com/blog/",
 		"blogrss": "http://www.addthis.com/blog/feed/",
-		"logo": "http://pbs.twimg.com/profile_images/3447814470/23de2c55a6ae85e10524d7910af9a85a_normal.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/addthis-logo.jpg",
 		"logo_width": "200",
-		"screenshot": "http://pbs.twimg.com/profile_images/3447814470/23de2c55a6ae85e10524d7910af9a85a_normal.png",
-		"tags": "Embeddable,Link-Stack,Sharing,Social Bookmarking"
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/addthis-logo.jpg",
+		"tags": null
 	},
 	{
 		"id": "190",
 		"name": "Embedly",
-		"summary": "Embedly provides a platform and suite of tools to make embedding and previewing links simple Embedly helps publishers and consumers manage embed codes from more than 100 Websites and APIs including YouTube Flickr Ustream Picassa Hulu Twitpic Quantcast and CrunchBase It automatically convert links from these sources into embedded media on the fly",
-		"details": "Embedly provides a platform and suite of tools to make embedding and previewing links simple Embedly helps publishers and consumers manage embed codes from more than 100 Websites and APIs including YouTube Flickr Ustream Picassa Hulu Twitpic Quantcast and CrunchBase It automatically convert links from these sources into embedded media on the fly",
+		"summary": false,
+		"details": "",
 		"website": "http://embed.ly/",
 		"twitter": "https://twitter.com/embedly",
 		"github": "https://github.com/embedly",
 		"blog": "https://twitter.com/weogeostatus",
 		"blogrss": "view-source:http://blog.embed.ly/rss",
-		"logo": "http://pbs.twimg.com/profile_images/3503494362/1d289aab136f2d111387a399f3a91b6a_normal.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/embedly-logo.png",
 		"logo_width": "200",
-		"screenshot": "http://pbs.twimg.com/profile_images/3503494362/1d289aab136f2d111387a399f3a91b6a_normal.png",
-		"tags": "Embed,Embeddable,Social Media,Video"
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/embedly-logo.png",
+		"tags": null
 	},
 	{
 		"id": "11308",
@@ -39,39 +39,39 @@
 		"github": "",
 		"blog": "",
 		"blogrss": "",
-		"logo": "http://pbs.twimg.com/profile_images/3248244334/363379431ea5c0e4b4e96b1853d55b8e_normal.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/iframely.png",
 		"logo_width": "150",
-		"screenshot": "http://pbs.twimg.com/profile_images/3248244334/363379431ea5c0e4b4e96b1853d55b8e_normal.png",
-		"tags": "Embeddable"
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/iframely.png",
+		"tags": null
 	},
 	{
 		"id": "11398",
 		"name": "Mozilla Brick",
-		"summary": "Brick is a collection of UI components designed for the easy and quick building of web application UIs Brick components are built using the Web Components standard to allow developers to describe the UI of their app using the HTML syntax they already know",
-		"details": "Brick is a collection of UI components designed for the easy and quick building of web application UIs Brick components are built using the Web Components standard to allow developers to describe the UI of their app using the HTML syntax they already know",
+		"summary": false,
+		"details": "",
 		"website": "http://brick.mozilla.io/",
 		"twitter": "https://twitter.com/mozbrick",
 		"github": "https://github.com/mozbrick",
 		"blog": "http://brick.mozilla.io/v2.0/blog",
 		"blogrss": "",
-		"logo": null,
-		"logo_width": 150,
-		"screenshot": null,
-		"tags": "Embeddable"
+		"logo": "",
+		"logo_width": "0",
+		"screenshot": "",
+		"tags": null
 	},
 	{
 		"id": "18698",
 		"name": "The Open Graph Protocol",
-		"summary": "The Open Graph protocol enables any web page to become a rich object in a social graph For instance this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook",
-		"details": "The Open Graph protocol enables any web page to become a rich object in a social graph For instance this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook",
+		"summary": false,
+		"details": "",
 		"website": "http://ogp.me/",
 		"twitter": "",
 		"github": "",
 		"blog": "",
 		"blogrss": "",
-		"logo": null,
-		"logo_width": 150,
-		"screenshot": null,
-		"tags": "Embeddable,Media,Social"
+		"logo": "",
+		"logo_width": "0",
+		"screenshot": "",
+		"tags": null
 	}
 ]
