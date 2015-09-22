@@ -1,22 +1,22 @@
 [
 	{
-		"building_block_id": "521",
-		"building_block_category_id": "77",
+		"building_block_id": "o7Z3rnJxXlxmDjP0QU0TbIJHR1X0n0GmEhpFrEP116123mWRldrzSCzxrFfFIxkb116E55H6BqHvQepY3N4GEBTCXFrQ117117",
+		"building_block_category_id": "hj4Az116dEtkW76NO8T6fzt4hc4gYQ1238Lj11643ycP3sj0apSEMDokspW399Q3naOFyllMfzruOZ2S8MZS116zFckNEQ117117",
 		"name": "Open Graph Protocol",
-		"about": "<p>The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.&nbsp;While many different technologies and schemas exist and could be combined together, there isn't a single technology which provides enough information to richly represent any web page within the social graph. The Open Graph protocol builds on these existing technologies and gives developers one thing to implement. Developer simplicity is a key goal of the Open Graph protocol which has informed many of the technical design decisions.</p>",
+		"about": "The Open Graph protocol enables any web page to become a rich object in a social graph, by embedding of simple tags in the pages header that describe objects.",
 		"category_id": "77",
-		"category": "Embed",
+		"category": "Formats",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/open-graph-logo.png",
 		"image_width": "200",
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "522",
-		"building_block_category_id": "77",
+		"building_block_id": "r4VGnHpDejtB8mdNLJwGcwwbxWD123NdD9hhidJZU295CcrBY116Cv9FMgsh116123xJKldpsXX3SkTkEPels2okS1HUPg117117",
+		"building_block_category_id": "hj4Az116dEtkW76NO8T6fzt4hc4gYQ1238Lj11643ycP3sj0apSEMDokspW399Q3naOFyllMfzruOZ2S8MZS116zFckNEQ117117",
 		"name": "oEmbed",
-		"about": "<p><span>oEmbed is a format for allowing an embedded representation of a URL on third party sites. The simple API allows a website to display embedded content (such as photos or videos) when a user posts a link to that resource, without having to parse the resource directly.</span></p>",
+		"about": "Format for allowing an embedded representation of a URL on third party sites to display embedded content (such as photos or videos) when a user posts a link to that resource.",
 		"category_id": "77",
-		"category": "Embed",
+		"category": "Formats",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/oembed-logo.png",
 		"image_width": "200",
 		"sort_order": "0"
