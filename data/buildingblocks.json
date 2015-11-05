@@ -5,7 +5,7 @@
 		"name": "Open Graph Protocol",
 		"about": "The Open Graph protocol enables any web page to become a rich object in a social graph, by embedding of simple tags in the pages header that describe objects.",
 		"category_id": "77",
-		"category": "Formats",
+		"category": "Embed Formats",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/open-graph-logo.png",
 		"image_width": "200",
 		"sort_order": "0"
@@ -16,7 +16,7 @@
 		"name": "oEmbed",
 		"about": "Format for allowing an embedded representation of a URL on third party sites to display embedded content (such as photos or videos) when a user posts a link to that resource.",
 		"category_id": "77",
-		"category": "Formats",
+		"category": "Embed Formats",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/oembed-logo.png",
 		"image_width": "200",
 		"sort_order": "0"
@@ -25,9 +25,9 @@
 		"building_block_id": "0ruXFcUu0McLE9ZCbXrzIbQCcf9ZQaNKjlAd1W2Jg3oxeBw7vRDFb3V116sKRn32t4Itq1oYy4tEXbVI2vHA123taw117117",
 		"building_block_category_id": "Z9yrJFOmotw79NOMgDrLDMk5x7VCTGQE5dRnBRs9S39KuY06Oa3YRYsdemexuFyIAGVksw5LW7D8FbxfZsMZdQ117117",
 		"name": "Bookmarklet",
-		"about": "<p>A bookmarklet that can be added to the toolbar of a browser, and quickly push data to an API.</p>",
+		"about": "A bookmarklet that can be added to the toolbar of a browser, and quickly push data to an API.",
 		"category_id": "16",
-		"category": "Tools",
+		"category": "Embeddable Tools",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -38,7 +38,7 @@
 		"name": "Widgets",
 		"about": "Widgets are highly functional, API driven JavaScript tools that provide portable applications that can be embedded on any website or application. ",
 		"category_id": "16",
-		"category": "Tools",
+		"category": "Embeddable Tools",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-widget.png",
 		"image_width": "0",
 		"sort_order": "1"
@@ -49,7 +49,7 @@
 		"name": "Badges",
 		"about": "Badges are common for displaying content and resources delivered via an API and allow these assets to be embedded on any website or application. ",
 		"category_id": "16",
-		"category": "Tools",
+		"category": "Embeddable Tools",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-badges.png",
 		"image_width": "0",
 		"sort_order": "3"
@@ -60,7 +60,7 @@
 		"name": "Widget Builder",
 		"about": "A widget builder provides a form that API consumers can use to configure a predefined widget that is integrated with an API, allowing them to customize and tailor the widget experience.",
 		"category_id": "232",
-		"category": "Engines",
+		"category": "Embed Engines",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-embeddable.png",
 		"image_width": "150",
 		"sort_order": "4"
@@ -71,7 +71,7 @@
 		"name": "Buttons",
 		"about": "Buttons are shareable snippets of code that often share, syndicate or trigger a variety of events that use APIs as their source.",
 		"category_id": "16",
-		"category": "Tools",
+		"category": "Embeddable Tools",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-power-button.png",
 		"image_width": "150",
 		"sort_order": "5"
@@ -82,7 +82,7 @@
 		"name": "JavaScript API",
 		"about": "A complete JavaScript API that developers can use to build and manage their own JavaScript integrations with an APIs resources, beyond existing widgets.",
 		"category_id": "232",
-		"category": "Engines",
+		"category": "Embed Engines",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-javascript-api.png",
 		"image_width": "100",
 		"sort_order": "6"
