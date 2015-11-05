@@ -73,5 +73,20 @@
 		"logo_width": "0",
 		"screenshot": "",
 		"tags": null
+	},
+	{
+		"id": "v8JAjFi53tKqc123vD116Bu3W1CoTRWT9s116kDDHtY8b4t15TwrBf1gDjWZOzPf3akxAuUpST7lSGBaqTEB123tVPMpvA117117",
+		"name": "Embedly",
+		"summary": "Embedly provides a platform and suite of tools to make embedding and previewing links simple. Embedly helps publishers and consumers manage embed codes from more than 100 Websites and APIs, including YouTube, Flickr, Ustream, Picassa, Hulu, Twitpic, Quantcast, and CrunchBase. It automatically convert links from these sources into embedded media on the fly.",
+		"details": "Embedly provides a platform and suite of tools to make embedding and previewing links simple. Embedly helps publishers and consumers manage embed codes from more than 100 Websites and APIs, including YouTube, Flickr, Ustream, Picassa, Hulu, Twitpic, Quantcast, and CrunchBase. It automatically convert links from these sources into embedded media on the fly.",
+		"website": "http://embed.ly/",
+		"twitter": "https://twitter.com/embedly",
+		"github": "https://github.com/embedly",
+		"blog": "https://twitter.com/weogeostatus",
+		"blogrss": "view-source:http://blog.embed.ly/rss",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/embedly-logo.png",
+		"logo_width": "200",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/embedly-logo.png",
+		"tags": null
 	}
 ]
