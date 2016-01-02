@@ -1,152 +1,114 @@
 ---
 layout: page
-title: Embeddable
+title: API Embeddables
 ---
+<p style="font-size: 12px; padding:5px;">
+  <img src="{{ site.project_image }}" align="right" width="75" style="padding: 5px;" />
+  {{ site.project_summary }}
+</p>
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/services/bw-embeddable.png" width="190" align="right" style="padding: 15px;" /></p>
+<center><hr style="padding: 5px 5px 5px 5px; margin: 5px; width: 85%;" /></center>
+<div class="row" style="vertical-align: top;" align="center">
 
-<p>Embeddable is focused on tools that provide copy and paste code, that syndicates and distributes data and content around the web.  This site focuses on using embeddable tools in the name of APIs, but not always directly using APIs for driving the embeddable tools.</p>
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
 
-<p>Commonly known embeddable tools are the Twitter button, Facebook like and others buttons, badges and widgets.  Usually embeddable tools are JavaScript which lends itself to the largest potential being a client side scripting language, but embeddable tools can be as simple as iFrame, HTML + CSS or even a simple image.</p>
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Top Links</strong></p>
+    <ul class="featurelist">
+      <li><a href="http://apis.how/85kt87ddrr">The Open Graph Protocol</a></li>
+      <li><a href="http://apis.how/zehxq6ucco">SDKs.io</a></li>
+    </ul>
 
-<p>The goal of this project is to study how approaches to embeddable tools can be applied as part of an API ecosystem strategy. There are two sides of the embeddable coin, one for API providers and the other for ApI consumers.</p>
+  </div>
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
+    <ul class="newslist">
+      {% for post in site.posts limit:2 %}
+        <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
 
-<p>Embeddable tools are not just for developers, they can be copy / pasted and reverse engineered by non-developers, making embeddable tools very powerful among the power user group.</p>  
+  </div>
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
 
-<p>While Twitter's success is often claimed to be owned by the developer community, it was the ability to share, retweet and syndicate API driven, Twitter resources across the Internet.</p>
+    <script type="text/javascript">
+      $url = 'http://apievangelist.com/blog.xml';
+      var $listcount = 0;
+      $.get($url, function (data) {
+          $(data).find("item").each(function () {
+              var el = $(this);
+              $title = el.find("title").text();
+              $link = el.find("link").text();
+              if($listcount<2){
+                $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
+                $('#rssNews').append($listitem);
+                }
+              $listcount++;
+          });
+      });
+    </script>
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest Analysis</strong><a href="http://apievangelist.com/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
+    <ul class="newslist" id="rssNews"></ul>
 
-<p>A successful embeddable API strategy starts here.</p>
+  </div>
+</div>
+<center><hr style="padding: 5px; margin: 5px; width: 85%;" /></center>
 
-<!-- Begin List API Design building blocks--->
-{% raw  %}
-<script id="buildingBlockListingTemplate" type="text/template">       
-    <li style="list-style: none; padding: 30px; border: 0px solid #000;">
-        <img src="{{image}}" width="75" align="left" style="padding: 15px;" /><strong>{{name}}</strong> - {{summary}}
-    </li>                                                                                               
-</script>
-{% endraw %}
+<div class="row" align="center" style="">
 
-<p><a id="jsonlink" href="data/buildingblocks.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-json-data-store.png" align="right" width="50" style="padding-top: 10px;" /></a></p>
-<h1>Building Blocks</h1>
-<div style="padding-left: 10px; padding-right: 10px; width:550px;">
-     <ul id="buildingBlockListing" style="padding-left: 30px;"></ul>
-</div>  
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
 
-<script type="text/javascript">
-function listCompanies()
-    {
-    $.getJSON('data/buildingblocks.json', function(data) {
-        toggle = 0;
-         $.each(data['buildingblocks'], function(key, val) {
-            var template = $('#buildingBlockListingTemplate').html();
-            var html = Mustache.to_html(template, val);
-            $('#buildingBlockListing').append(html);                          
-            });
-        });
-    } 
-listCompanies();
-</script>
-<!-- End List API Design building blocks--->
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="#"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-101.jpg" width="45" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;Learn The Basics From This Research</strong></a></li>
+    </ul>
 
-<!-- Begin List API Design companies--->
-<p><a id="jsonlink" href="data/companies.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-json-data-store.png" align="right" width="50" style="padding-top: 10px;" /></a></p>
-<h1>Companies</h1>
-{% raw  %}
-<script id="companyListingTemplate" type="text/template">       
-    <tr>
-        <td align="left" valign="top">
-            <a href="" id="home-logo-link-{{id}}"><img src="{{logo}}" width="{{logo_width}}" align="left" style="padding: 15px;" /></a>
-            <a href="" id="home-name-link-{{id}}" style="color: #000;"><strong>{{name}}</strong></a><p>{{details}}</p>
-        </td>
-    </tr>
-    <tr>
-        <td align="center" valign="top">   
-        	           
-	        <a href="index.html" target="_blank" title="Website" id="home-icon-{{id}}"><img id="home-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="35" style="display: inline; margin: 10px; width: 35px;" /></a>
-	
-	        <a href="index.html" target="_blank" title="Blog" id="blog-icon-{{id}}"><img id="blog-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="35" style="display: inline; margin: 10px; width: 35px;" /></a>
-	   
-	        <a href="index.html" target="_blank" title="Blog RSS" id="blogrss-icon-{{id}}"><img id="blogrss-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="36" style="display: inline; margin: 10px; width: 36px;" /></a>
-	   
-	        <a href="index.html" target="_blank" title="Twitter" id="twitter-icon-{{id}}"><img id="twitter-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="45" style="display: inline; margin: 10px; width: 45px;" /></a>
-	
-	        <a href="index.html" target="_blank" title="Githube" id="github-icon-{{id}}"><img id="github-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="50" style="display: inline; margin: 10px; width: 50px;" /></a>            
-			<hr />
-		</td>
-	</tr>                                                                                                  
-</script>
-{% endraw %}
+  </div>
 
-<div>
-     <p align="center"><hr /></p>
-     <table id="companyListing" style="padding-left: 35px;" width="90%" cellpadding="1" cellspacing="1"></table>
-</div>  
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
 
-<script type="text/javascript">
-function listCompanies()
-    {
-    $.getJSON('data/companies.json', function(data) {
-        toggle = 0;
-         $.each(data['company'], function(key, val) {
-            var template = $('#companyListingTemplate').html();
-            var html = Mustache.to_html(template, val);
-            $('#companyListing').append(html);     
-                        
-            id = val['id'];
-            website = val['website'];
-            //alert(website);
-            if(website.length>0){ document.getElementById("home-logo-link-"+id).href=website; }               
-            if(website.length>0){ document.getElementById("home-name-link-"+id).href=website; }              
-            if(website.length>0){ document.getElementById("home-icon-"+id).href=website; } else { document.getElementById("home-icon-img-"+id).style.display='none'; }              
-                                    
-            blog = val['blog'];
-            if(blog.length>0){ document.getElementById("blog-icon-"+id).href=blog; } else { document.getElementById("blog-icon-img-"+id).style.display='none'; }
-                            
-            blogrss = val['blogrss'];
-            if(blog.length>0){ document.getElementById("blogrss-icon-"+id).href=blogrss; } else { document.getElementById("blogrss-icon-img-"+id).style.display='none'; }
-            
-            twitter = val['twitter'];
-            if(twitter.length>0){ document.getElementById("twitter-icon-"+id).href=twitter; } else { document.getElementById("twitter-icon-img-"+id).style.display='none'; }
-            
-            github = val['github'];
-            if(github.length>0){ document.getElementById("github-icon-"+id).href=github; } else { document.getElementById("github-icon-img-"+id).style.display='none'; }
-                       
-                                 
-            });
-        });
-    } 
-listCompanies();
-</script>
-<!-- End List API Design companies--->
-<hr />
-<!-- Begin List API Design companies--->
-{% raw  %}
-<script id="toolListingTemplate" type="text/template">       
-    <li style="list-style: none; padding: 30px; border: 0px solid #000;">
-        <a href="tools-detail.html?id={{id}}"><img src="{{logo}}" width="200" align="left" style="padding: 15px;" /></a>
-        <a href="tools-detail.html?id={{id}}" style="color: #000;"><strong>{{name}}</strong></a> - {{summary}}... <a href="tools-detail.html?id={{id}}">details</a>.
-    </li>                                                                                               
-</script>
-{% endraw %}
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://ide.apievangelist.com"><strong>Visit My Research On API IDEs&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+    </ul>
 
-<p><a id="jsonlink" href="data/tools.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-json-data-store.png" align="right" width="50" style="padding-top: 10px;" /></a></p>
-<h1>Tools</h1>
-<div style="padding-left: 10px; padding-right: 10px; width:550px;">
-     <ul id="toolListing" style="padding-left: 30px;"></ul>
-</div>  
+  </div>
 
-<script type="text/javascript">
-function listTools()
-    {
-    $.getJSON('data/tools.json', function(data) {
-        toggle = 0;
-         $.each(data['tools'], function(key, val) {
-            var template = $('#toolListingTemplate').html();
-            var html = Mustache.to_html(template, val);
-            $('#toolListing').append(html);                          
-            });
-        });
-    } 
-listTools();
-</script>
-<!-- End List API Design companies--->
+</div>
+<div class="row" align="center" style="">
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-journey.png" width="25" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;&nbsp;Take a Journey Through Research</strong></a></li>
+    </ul>
+
+  </div>
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://embeddable.apievangelist.com"><strong>Visit My Research Around Embeddables&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+    </ul>
+
+  </div>
+
+</div>
+<div class="row" align="center" style="">
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
+
+    <!--
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://bit.ly/1ISZaev">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pdf.png" width="22" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;&nbsp;&nbsp;View the PDF of This Research</strong></a></li>
+    </ul>
+    -->
+
+  </div>
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://webhooks.apievangelist.com"><strong>Visit My Research On Webhooks&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+    </ul>
+
+  </div>
+
+</div>
