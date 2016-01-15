@@ -8,29 +8,7 @@
 		"category": "Embed Formats",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/open-graph-logo.png",
 		"image_width": "200",
-		"sort_order": "0"
-	},
-	{
-		"building_block_id": "r4VGnHpDejtB8mdNLJwGcwwbxWD123NdD9hhidJZU295CcrBY116Cv9FMgsh116123xJKldpsXX3SkTkEPels2okS1HUPg117117",
-		"building_block_category_id": "hj4Az116dEtkW76NO8T6fzt4hc4gYQ1238Lj11643ycP3sj0apSEMDokspW399Q3naOFyllMfzruOZ2S8MZS116zFckNEQ117117",
-		"name": "oEmbed",
-		"about": "Format for allowing an embedded representation of a URL on third party sites to display embedded content (such as photos or videos) when a user posts a link to that resource.",
-		"category_id": "77",
-		"category": "Embed Formats",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/oembed-logo.png",
-		"image_width": "200",
-		"sort_order": "0"
-	},
-	{
-		"building_block_id": "0ruXFcUu0McLE9ZCbXrzIbQCcf9ZQaNKjlAd1W2Jg3oxeBw7vRDFb3V116sKRn32t4Itq1oYy4tEXbVI2vHA123taw117117",
-		"building_block_category_id": "Z9yrJFOmotw79NOMgDrLDMk5x7VCTGQE5dRnBRs9S39KuY06Oa3YRYsdemexuFyIAGVksw5LW7D8FbxfZsMZdQ117117",
-		"name": "Bookmarklet",
-		"about": "A bookmarklet that can be added to the toolbar of a browser, and quickly push data to an API.",
-		"category_id": "16",
-		"category": "Embeddable Tools",
-		"image": "",
-		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "1"
 	},
 	{
 		"building_block_id": "CKjJhhwGEFL0116vXDGw5eyxsiHr8OXrfDyOc1fptFJwpSpSD29AsfAVL5WrS116iTMWkwU116iRO2hBKmYb1160pP3Ilg117117",
@@ -44,6 +22,50 @@
 		"sort_order": "1"
 	},
 	{
+		"building_block_id": "x9GrbJo4WWLCcm1163C11504w1j2kXR8R0A8O29123fvgQIo8aSdUUZQKKead1160vRwQqYlPVdsbfMgc19k1166p4q4wQ117117",
+		"building_block_category_id": "5yYtdYYfab4p0TN8N6k123Ns99O3BfoaDONk31791hIOUU123jTyRIfgf1KoerIjneha9EW8tIkqBahBEpsM116zXM116g117117",
+		"name": "Widget Builder",
+		"about": "A widget builder provides a form that API consumers can use to configure a predefined widget that is integrated with an API, allowing them to customize and tailor the widget experience.",
+		"category_id": "232",
+		"category": "Embed Engines",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-embeddable.png",
+		"image_width": "150",
+		"sort_order": "1"
+	},
+	{
+		"building_block_id": "NbQhzdcCIq1e0qbNzk4T2HCr24nbTsNLMOrd3bwrvQPIoxjBRMEIWjAXM5irzrDoBUOtnG28rMCt9XfAFX567A117117",
+		"building_block_category_id": "5yYtdYYfab4p0TN8N6k123Ns99O3BfoaDONk31791hIOUU123jTyRIfgf1KoerIjneha9EW8tIkqBahBEpsM116zXM116g117117",
+		"name": "JavaScript API",
+		"about": "A complete JavaScript API that developers can use to build and manage their own JavaScript integrations with an APIs resources, beyond existing widgets.",
+		"category_id": "232",
+		"category": "Embed Engines",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-javascript-api.png",
+		"image_width": "100",
+		"sort_order": "1"
+	},
+	{
+		"building_block_id": "r4VGnHpDejtB8mdNLJwGcwwbxWD123NdD9hhidJZU295CcrBY116Cv9FMgsh116123xJKldpsXX3SkTkEPels2okS1HUPg117117",
+		"building_block_category_id": "hj4Az116dEtkW76NO8T6fzt4hc4gYQ1238Lj11643ycP3sj0apSEMDokspW399Q3naOFyllMfzruOZ2S8MZS116zFckNEQ117117",
+		"name": "oEmbed",
+		"about": "Format for allowing an embedded representation of a URL on third party sites to display embedded content (such as photos or videos) when a user posts a link to that resource.",
+		"category_id": "77",
+		"category": "Embed Formats",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/oembed-logo.png",
+		"image_width": "200",
+		"sort_order": "2"
+	},
+	{
+		"building_block_id": "HEd6jqEhv9123Yhg116QE5EZ3z9hJ10iI123p116UMlg8uEjGGd6IoPQZ0rMLCu5v5zjBvsXHL8invsBwLd116xS3Nz7lujw117117",
+		"building_block_category_id": "Z9yrJFOmotw79NOMgDrLDMk5x7VCTGQE5dRnBRs9S39KuY06Oa3YRYsdemexuFyIAGVksw5LW7D8FbxfZsMZdQ117117",
+		"name": "Buttons",
+		"about": "Buttons are shareable snippets of code that often share, syndicate or trigger a variety of events that use APIs as their source.",
+		"category_id": "16",
+		"category": "Embeddable Tools",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-power-button.png",
+		"image_width": "150",
+		"sort_order": "2"
+	},
+	{
 		"building_block_id": "yKLdPWs116hZPX041xEhxkT123123cI4RVDiyI4slZ116123AIjyUAozyQVOcKR0WeZP6DvmnjmKpku9CR5UPxqXOgcqu5VA117117",
 		"building_block_category_id": "Z9yrJFOmotw79NOMgDrLDMk5x7VCTGQE5dRnBRs9S39KuY06Oa3YRYsdemexuFyIAGVksw5LW7D8FbxfZsMZdQ117117",
 		"name": "Badges",
@@ -55,36 +77,14 @@
 		"sort_order": "3"
 	},
 	{
-		"building_block_id": "x9GrbJo4WWLCcm1163C11504w1j2kXR8R0A8O29123fvgQIo8aSdUUZQKKead1160vRwQqYlPVdsbfMgc19k1166p4q4wQ117117",
-		"building_block_category_id": "5yYtdYYfab4p0TN8N6k123Ns99O3BfoaDONk31791hIOUU123jTyRIfgf1KoerIjneha9EW8tIkqBahBEpsM116zXM116g117117",
-		"name": "Widget Builder",
-		"about": "A widget builder provides a form that API consumers can use to configure a predefined widget that is integrated with an API, allowing them to customize and tailor the widget experience.",
-		"category_id": "232",
-		"category": "Embed Engines",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-embeddable.png",
-		"image_width": "150",
-		"sort_order": "4"
-	},
-	{
-		"building_block_id": "HEd6jqEhv9123Yhg116QE5EZ3z9hJ10iI123p116UMlg8uEjGGd6IoPQZ0rMLCu5v5zjBvsXHL8invsBwLd116xS3Nz7lujw117117",
+		"building_block_id": "0ruXFcUu0McLE9ZCbXrzIbQCcf9ZQaNKjlAd1W2Jg3oxeBw7vRDFb3V116sKRn32t4Itq1oYy4tEXbVI2vHA123taw117117",
 		"building_block_category_id": "Z9yrJFOmotw79NOMgDrLDMk5x7VCTGQE5dRnBRs9S39KuY06Oa3YRYsdemexuFyIAGVksw5LW7D8FbxfZsMZdQ117117",
-		"name": "Buttons",
-		"about": "Buttons are shareable snippets of code that often share, syndicate or trigger a variety of events that use APIs as their source.",
+		"name": "Bookmarklet",
+		"about": "A bookmarklet that can be added to the toolbar of a browser, and quickly push data to an API.",
 		"category_id": "16",
 		"category": "Embeddable Tools",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-power-button.png",
-		"image_width": "150",
-		"sort_order": "5"
-	},
-	{
-		"building_block_id": "NbQhzdcCIq1e0qbNzk4T2HCr24nbTsNLMOrd3bwrvQPIoxjBRMEIWjAXM5irzrDoBUOtnG28rMCt9XfAFX567A117117",
-		"building_block_category_id": "5yYtdYYfab4p0TN8N6k123Ns99O3BfoaDONk31791hIOUU123jTyRIfgf1KoerIjneha9EW8tIkqBahBEpsM116zXM116g117117",
-		"name": "JavaScript API",
-		"about": "A complete JavaScript API that developers can use to build and manage their own JavaScript integrations with an APIs resources, beyond existing widgets.",
-		"category_id": "232",
-		"category": "Embed Engines",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-javascript-api.png",
+		"image": "",
 		"image_width": "100",
-		"sort_order": "6"
+		"sort_order": "4"
 	}
 ]
