@@ -1,22 +1,29 @@
 ---
 layout: page
-title: 'Tools'
+title: 'Embeddable API Tooling'
 ---
-<p>These are the common tools I have pullled from my research so far.
-<table width="100%" border="0"><tr>
-<td>
-<hr>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<a href="https://github.com/starfishmod/jquery-oembed-all" id="home-logo-link-101"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg" width="150" align="left" style="padding: 15px;" /></a>
-<a href="https://github.com/starfishmod/jquery-oembed-all" id="home-name-link-101" style="color: #000;"><strong>JQuery OEmbed All</strong></a><p>JQuery OEmbed All is a fork with a lot of changes of the jqueryoembed but instead of using oohembed or other such services it tries to embed the object natively without having to use some kind of local server This project will happily use native oembed services when it can however it also use other types of embedding whenever oembed is not possible</p>
-</td>
-</tr>
-<tr>
-<td>
-<hr>
-</td>
-</tr>
-</table></table>
+<h1>{{ site.title }} Tooling</h1>
+<p>{{ site.tools_desc }}</p>
+<table width="100%" border="0">
+  {% for tool in site.data.tools %}
+    {% if tool.tags contains 'Embeddable' %}
+    <tr>
+      <td align="center" valign="middle" width="60">
+        <a href="{{ tool.url }}"><img src="{{ tool.logo }}" width="100" align="left" style="padding: 15px;" /></a>
+      </td>
+      <td align="left" width="75%">
+        <a href="{{ tool.url }}" style="color: #000;">
+          <strong>{{ tool.name }}</strong>
+        </a>
+        <p style="font-size: 11px;">{{ tool.details }}</p>
+      </td>
+      <td width="75" align="center" valign="middle">
+          <a href="{{ tool.url }}" target="_blank" title="Website">
+            <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="25" />
+          </a>
+      </td>
+    </tr>
+    {% endif %}
+  {% endfor %}
+</table>
+<p>If there is an "open source tool" that should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues">submit as a Github Issue, and I will consider adding</a>.</p>

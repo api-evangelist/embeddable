@@ -1,18 +1,22 @@
+---
+layout: none
+---
 [
-	{
-		"tool_id": "101",
-		"name": "JQuery OEmbed All",
-		"user": "",
-		"details": "JQuery OEmbed All is a fork with a lot of changes of the jqueryoembed but instead of using oohembed or other such services it tries to embed the object natively without having to use some kind of local server This project will happily use native oembed services when it can however it also use other types of embedding whenever oembed is not possible",
-		"post_date": "2013-07-12 19:26:17",
-		"url": "https://github.com/starfishmod/jquery-oembed-all",
-		"blog_url": "https://github.com/starfishmod/jquery-oembed-all",
-		"blog_rss_url": "",
-		"twitter_url": "",
-		"github_url": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/bw-github.jpg",
-		"forks": 0,
-		"followers": 0,
-		"watchers": 0
-	}
+{% for tool in site.data.tools %}{
+	"tool_id": "{{ org.id }}",
+	"name": "{{ org.name }}",
+	"user": "{{ org.user }}",
+	"details": "{{ org.details }}",
+	"post_date": "{{ org.post_date }}",
+	"url": "{{ org.portal_url }}",
+	"blog_url": "{{ org.blog_url }}",
+	"blog_rss_url": "{{ org.blog_rss_url }}",
+	"twitter_url": "{{ org.twitter_url }}",
+	"github_url": "{{ org.github_url }}",
+	"logo": "{{ org.logo }}",
+	"forks": "{{ org.forks }}",
+	"followers": "{{ org.followers }}",
+	"watchers": "{{ org.watchers }}",
+	"tags": {{ tool.tags }}
+{% endfor %}}{% if tool.last != true %},{% endif %}
 ]
