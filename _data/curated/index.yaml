@@ -1,332 +1,4 @@
 ---
-- curated_id: a6575a6cd7fad91682088071188549fe
-  item_date: "2012-05-31 11:39:54"
-  title: How important are all those ugly Tweet Buttons to news sites?
-  url: http://www.niemanlab.org/2012/05/how-important-are-all-those-ugly-tweet-buttons-to-news-sites/
-  domain: www.niemanlab.org
-  image: ""
-- curated_id: d16d96ac9f9d4dda62d3c245e0eef6ce
-  item_date: "2012-12-29 09:52:16"
-  title: Ninja Blocks
-  url: http://shop.ninjablocks.com/products/ninja-blocks-kit
-  domain: shop.ninjablocks.com
-  image: ""
-- curated_id: 60dc0d6f334743775138060f11e030ce
-  item_date: "2013-01-17 00:00:00"
-  title: Stripe Checkout
-  url: https://stripe.com/blog/stripe-checkout
-  domain: stripe.com
-  image: ""
-- curated_id: f8f684d9929cbb4d4b01d89120e17978
-  item_date: "2013-01-22 11:30:45"
-  title: 'Twitter Blog: An update to embedded Tweets'
-  url: https://blog.twitter.com/2013/an-update-to-embedded-tweets
-  domain: blog.twitter.com
-  image: ""
-- curated_id: 5e7fcbbadb11b2718c5d062fe6455d68
-  item_date: "2013-02-20 00:00:00"
-  title: WordPress Subscription Form Shortcode
-  url: http://www.activecampaign.com/blog/wordpress-subscription-form-shortcode/
-  domain: www.activecampaign.com
-  image: ""
-- curated_id: 646f9732307a45ad372a65ebd6e37447
-  item_date: "2013-02-27 00:00:00"
-  title: Sell Anywhere with Ecommerce Embed Tools
-  url: https://www.sparkpay.com/sellonline/features/sellanywhere
-  domain: www.sparkpay.com
-  image: ""
-- curated_id: 34baa39667a53fadff36f23a32017437
-  item_date: "2013-02-27 00:00:00"
-  title: Introducing a new way to embed widgets
-  url: https://community.uservoice.com/blog/introducing-a-new-way-to-embed-widgets/
-  domain: community.uservoice.com
-  image: ""
-- curated_id: 8b7fa52f851f52aba37928d4372640c3
-  item_date: "2013-03-01 12:40:06"
-  title: Secrets of Awesome JavaScript API Design
-  url: http://webstandardssherpa.com/reviews/secrets-of-awesome-javascript-api-design/
-  domain: webstandardssherpa.com
-  image: ""
-- curated_id: d51b7d799e734a60c05c13204d05c635
-  item_date: "2013-03-07 00:00:00"
-  title: 'Introducing: The jQuery Nutrition Label Plugin'
-  url: http://blog.nutritionix.com/2013/03/08/introducing-open-nutrition-label-project/
-  domain: blog.nutritionix.com
-  image: ""
-- curated_id: 78c923eb67f6efcb7d89e8cf5c871a98
-  item_date: "2013-03-10 10:12:58"
-  title: dzone.com - Introducing Braintree.js
-  url: https://dzone.com/links/introducing_braintreejs.html
-  domain: dzone.com
-  image: ""
-- curated_id: b63a9fb575bab4cb3b24162869efaa9e
-  item_date: "2013-03-14 08:37:20"
-  title: Open Badges reaches v1.0!
-  url: http://dougbelshaw.com/blog/2013/03/14/open-badges-reaches-v1-0/
-  domain: dougbelshaw.com
-  image: ""
-- curated_id: 3932392c2fa2bc78ec75e1356e882049
-  item_date: "2013-03-22 00:00:00"
-  title: ?White label? cycle journey planners for Local Authorities and others
-  url: https://www.cyclestreets.net/blog/2013/03/22/white-label-sites/
-  domain: www.cyclestreets.net
-  image: ""
-- curated_id: 12ab1bf6e65f19a55279999eb5403dcb
-  item_date: "2013-03-22 00:00:00"
-  title: How to embed your Cloudcast into WordPress
-  url: https://blog.mixcloud.com/2013/03/22/how-to-embed-your-cloudcast-into-wordpress/
-  domain: blog.mixcloud.com
-  image: ""
-- curated_id: 0334ae6efffe671c67bc80dc2714f5a8
-  item_date: "2013-03-24 23:15:36"
-  title: fragment.js
-  url: http://danielrapp.github.io/fragment.js/
-  domain: danielrapp.github.io
-  image: ""
-- curated_id: faa5b6f6c5daebb30784f78e19f72cad
-  item_date: "2013-03-26 15:32:29"
-  title: Word Cloud Generator
-  url: https://www.jasondavies.com/wordcloud/
-  domain: www.jasondavies.com
-  image: ""
-- curated_id: 317747bfae190e56549a6a74501a7bf5
-  item_date: "2013-04-15 00:00:00"
-  title: Embedding Forms in Display (Banner) and Mobile Ads
-  url: http://www.flite.com/blog/
-  domain: www.flite.com
-  image: ""
-- curated_id: 49634345dafb1d929ca8ec6fb4a22597
-  item_date: "2013-04-15 20:02:10"
-  title: Population Clock
-  url: http://www.census.gov/popclock//cid=db_clock1
-  domain: www.census.gov
-  image: ""
-- curated_id: 6b22e3a86d5208c73ef35b89060e2f47
-  item_date: "2013-04-16 00:00:00"
-  title: Adding support for YouTube
-  url: http://blog.flattr.net/2013/04/adding-support-for-youtube/
-  domain: blog.flattr.net
-  image: ""
-- curated_id: ad7c9d3251f7ed24bd889ec4265c020c
-  item_date: "2013-05-07 09:50:35"
-  title: Google Launches Photo Sphere Viewing Widget for All Sites
-  url: http://thenextweb.com/google/2013/05/03/google-launches-photo-sphere-viewing-widget-for-embedding-images-in-any-website-not-just-google-and-maps/
-  domain: thenextweb.com
-  image: ""
-- curated_id: 596d690b80e78e3c557be1dad7ccd43a
-  item_date: "2013-05-09 00:00:00"
-  title: Salesforce acquires visual web clipping service Clipboard
-  url: https://gigaom.com/2013/05/09/salesforce-acquires-visual-web-clipping-service-clipboard/
-  domain: gigaom.com
-  image: ""
-- curated_id: 470a8ea5d21cbb508431872437a63268
-  item_date: "2013-05-22 00:00:00"
-  title: 'Blog Post: Image Overlays with Bing Maps (JavaScript)'
-  url: http://blogs.bing.com/maps/2013/05/22/image-overlays-with-bing-maps-javascript/
-  domain: blogs.bing.com
-  image: ""
-- curated_id: ff7b50227a9222623d5a55080d22c5ac
-  item_date: "2013-05-23 00:00:00"
-  title: Monitor your websites on iPad with the Pingdom widget for Status Board
-  url: http://royal.pingdom.com/2013/05/23/monitor-websites-ipad-pingdom-widget-status-board/
-  domain: royal.pingdom.com
-  image: ""
-- curated_id: c73ba451504eb72aa7ed891cf2bea3a8
-  item_date: "2013-05-24 00:00:00"
-  title: Friday Facts - Embed SmarterMeasure into Your Orientation
-  url: http://smarterservices.com/friday-facts-embed-smartermeaure-into-your-orientation
-  domain: smarterservices.com
-  image: ""
-- curated_id: 8f631874cb6966e591933ab35ab93052
-  item_date: "2013-05-28 00:00:00"
-  title: App.net Social Buttons Are Here
-  url: http://blog.app.net/2013/05/28/app-net-social-buttons-are-here/
-  domain: blog.app.net
-  image: ""
-- curated_id: 5d93179da950df3b24367b0fbb5d9621
-  item_date: "2013-06-03 00:00:00"
-  title: Forecast Embeds
-  url: http://blog.forecast.io/forecast-embeds/
-  domain: blog.forecast.io
-  image: ""
-- curated_id: a3e6cbbfbd9c8a5ab312373f902aef54
-  item_date: "2013-06-04 00:00:00"
-  title: Displaying Documents from TeamLab Office Directly on Your Webpage
-  url: http://www.onlyoffice.com/blog/2013/06/embedding-documents/
-  domain: www.onlyoffice.com
-  image: ""
-- curated_id: cd092e811a0dad207a1368dcb376c525
-  item_date: "2013-06-04 00:00:00"
-  title: 3 simple rules for customizing your chat widget
-  url: http://blog.hipmob.com/post/52151754779/3-simple-rules-for-customizing-your-chat-widget
-  domain: blog.hipmob.com
-  image: ""
-- curated_id: 9b0c6788f1b9103c6545a317c18b9f92
-  item_date: "2013-06-20 00:00:00"
-  title: Introducing Fleddit an amazing Flattr, Reddit mashup!
-  url: http://blog.flattr.net/2013/06/introducing-fleddit-an-amazing-flattr-reddit-mashup/
-  domain: blog.flattr.net
-  image: ""
-- curated_id: 72fed286c3fbc34993f69cffc5027a2f
-  item_date: "2013-06-28 00:00:00"
-  title: 'Three years later: another supported browser update for JavaScript Maps
-    API v3'
-  url: http://googlegeodevelopers.blogspot.com/2013/06/three-years-later-another-supported.html
-  domain: googlegeodevelopers.blogspot.com
-  image: ""
-- curated_id: 239327c2a25997ce7814fadfbb09299b
-  item_date: "2013-07-01 00:00:00"
-  title: An HTML5 Project with Chromium Embedded Framework
-  url: https://software.intel.com/en-us/html5/blogs/an-html5-project-with-chromium-embedded-framework
-  domain: software.intel.com
-  image: ""
-- curated_id: a76e6c68ea118900d66ac4631d70c62b
-  item_date: "2013-07-09 00:00:00"
-  title: 'Quickie: A scriptless, imageless, no-third party code Twitter share button
-    for WordPress'
-  url: https://www.christianheilmann.com/2013/07/09/quickie-a-scriptless-imageless-no-third-party-code-twitter-share-button-for-wordpress/
-  domain: www.christianheilmann.com
-  image: ""
-- curated_id: bad6bdbb768d9cc9ad1d5b0292d7aa13
-  item_date: "2013-07-09 00:00:00"
-  title: Say hello to HTML formatting for tickets
-  url: https://community.uservoice.com/blog/say-hello-to-html-formatting-for-tickets/
-  domain: community.uservoice.com
-  image: ""
-- curated_id: e66774b9289184ef5835c20aad9f3c83
-  item_date: "2013-07-09 11:06:03"
-  title: Dropbox - Meet the Dropbox Saver - Developer Blog
-  url: https://blogs.dropbox.com/developers/2013/07/meet-the-dropbox-saver/
-  domain: blogs.dropbox.com
-  image: ""
-- curated_id: 06f4861be5f98763490c99d18aa721a9
-  item_date: "2013-07-10 00:00:00"
-  title: Instagram embeds are here, but not quite perfect for publishers
-  url: http://www.niemanlab.org/2013/07/instagram-embeds-are-here-but-not-quite-perfect-for-publishers/
-  domain: www.niemanlab.org
-  image: ""
-- curated_id: 6e645ef01a454ff4129bbcb67ca33461
-  item_date: "2013-07-10 10:03:44"
-  title: Introducing Instagram Web Embeds - Instagram Blog
-  url: http://blog.instagram.com/post/55095847329/introducing-instagram-web-embeds
-  domain: blog.instagram.com
-  image: ""
-- curated_id: 49acd1bd6599d98ee43dc567cc59398e
-  item_date: "2013-08-30 00:00:00"
-  title: Using CartoDB to tell stories in open data
-  url: https://carto.com/blog/using-cartodb-to-tell-stories-in-open-data/
-  domain: carto.com
-  image: ""
-- curated_id: f7e6b084f89ab590480a6c2a51fcc461
-  item_date: "2013-09-19 00:00:00"
-  title: Building JS graphs using Backbone and Rickshaw
-  url: https://blog.serverdensity.com/building-js-graphs-using-backbone-and-rickshaw/
-  domain: blog.serverdensity.com
-  image: ""
-- curated_id: 4bca90bb39a82e189a59b2a9d0e6b682
-  item_date: "2013-10-30 00:00:00"
-  title: Embed StockTwits Messages Everywhere
-  url: http://blog.stocktwits.com/embed-stocktwits-messages-everywhere/
-  domain: blog.stocktwits.com
-  image: ""
-- curated_id: 4506ce0ba09d0356417e759a9800c309
-  item_date: "2013-11-19 00:00:00"
-  title: CartoDB makes it easy to add the perfect basemap to your data visualization
-  url: https://carto.com/blog/post/67460068881
-  domain: carto.com
-  image: ""
-- curated_id: 68051692bf898f1ebeae68c02ba3db52
-  item_date: "2013-12-09 11:08:11"
-  title: Interactive Map with d3.js - TNODA
-  url: http://www.tnoda.com/blog/2013-12-07
-  domain: www.tnoda.com
-  image: ""
-- curated_id: 30e636c63f73c0ec7e9138dff1c4a01f
-  item_date: "2014-06-27 16:06:36"
-  title: World Cup |WebKite
-  url: http://webkite.com/
-  domain: webkite.com
-  image: ""
-- curated_id: 5b5daccc562b8ba841d59bb57d055d92
-  item_date: "2014-07-16 00:00:00"
-  title: 'Web Components: Part 2'
-  url: http://developer.pearson.com/blog/web-components-part-2
-  domain: developer.pearson.com
-  image: ""
-- curated_id: ae9ad8e02b4a6267e5a67e0543639ee6
-  item_date: "2014-07-17 00:00:00"
-  title: The Data of Music, the Anatomy of Pain
-  url: http://blog.plot.ly/post/92062112527/the-data-of-music-the-anatomy-of-pain
-  domain: blog.plot.ly
-  image: ""
-- curated_id: a1b88ecdaf4fcd0c852b3e4d6c6db0a8
-  item_date: "2014-07-18 00:00:00"
-  title: Generating the Snippet Status Report with Ad Exchange Buyer REST API
-  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/1041832551769036194
-  domain: www.blogger.com
-  image: ""
-- curated_id: b0bb015091ca09c58e13eb8f13bee588
-  item_date: "2014-07-25 00:00:00"
-  title: 'Pro tip for embedding Tweets: use the oEmbed API endpoint'
-  url: https://blog.twitter.com/2014/pro-tip-for-embedding-tweets-use-the-oembed-api-endpoint
-  domain: blog.twitter.com
-  image: ""
-- curated_id: b5aa74d56e12dd5d9f8dc35c2cca0529
-  item_date: "2014-08-01 15:34:04"
-  title: reproject d3.carto.map
-  url: http://bl.ocks.org/mpmckenna8/f6245adc7a3cd3930a11
-  domain: bl.ocks.org
-  image: ""
-- curated_id: 2b914120c01ae7508994e5b6042369d3
-  item_date: "2014-08-04 00:00:00"
-  title: How to Share And Embed Your 3D Design Using Sketchfab
-  url: https://i.materialise.com/blog/how-to-share-and-embed-your-3d-design-using-sketchfab/
-  domain: i.materialise.com
-  image: ""
-- curated_id: c67c4eefdc0e26856c744724a8f5f7ce
-  item_date: "2014-08-07 00:00:00"
-  title: Introducing Heroku Button
-  url: https://blog.heroku.com/heroku-button
-  domain: blog.heroku.com
-  image: ""
-- curated_id: bc5b4c381af399fb366b9d44c123976f
-  item_date: "2014-08-07 00:00:00"
-  title: Twilio Open Source Rapid Response Kit Adds Heroku Button and New Volunteer
-    Tool
-  url: https://www.twilio.com/blog/2014/08/twilio-open-source-rapid-response-kit-adds-heroku-button-and-new-volunteer-tool.html
-  domain: www.twilio.com
-  image: ""
-- curated_id: 7562640060277328412a2779eb4b9595
-  item_date: "2014-08-08 07:18:38"
-  title: 'Heroku Release Heroku Button: A Simple HTML or Markdown Snippet/ | App Developer
-    Magazine'
-  url: http://appdevelopermagazine.com/1747/2014/8/8/Heroku-Release-Heroku-Button:-A-Simple-HTML-or-Markdown-Snippet/
-  domain: appdevelopermagazine.com
-  image: ""
-- curated_id: bf459b2949b58ef4d816d92304a96fb2
-  item_date: "2014-10-02 00:00:00"
-  title: Facebook introduces Like button to mobile apps
-  url: https://gigaom.com/2014/10/02/facebook-introduces-like-button-to-mobile-apps/
-  domain: gigaom.com
-  image: ""
-- curated_id: 68fb03184be45ebeb6bee66ffc45a907
-  item_date: "2014-10-13 00:00:00"
-  title: AddThis Conversion Tools Now Integrated with AWeber
-  url: http://www.addthis.com/blog/2014/10/13/addthis-conversion-tools-now-integrated-with-aweber/
-  domain: www.addthis.com
-  image: ""
-- curated_id: b9bc102cca4777dfd67543c64901ee1a
-  item_date: "2014-12-03 00:00:00"
-  title: 'Embed customer service into the user experience: Introducing Zendesk Embeddables'
-  url: https://www.zendesk.com/blog/introducing-embeddables
-  domain: www.zendesk.com
-  image: ""
-- curated_id: 7780d79c1165edc474fe14ead977cf3a
-  item_date: "2014-12-23 00:00:00"
-  title: Responsive, Mobile-Friendly Embedded Visualizations
-  url: http://blog.silk.co/post/105953873597/responsive-mobile-friendly-embedded
-  domain: blog.silk.co
-  image: ""
 - curated_id: 4513bedc66a3fee8162e3e2d351c71f0
   item_date: "2015-01-22 00:00:00"
   title: Localize Brightcove Player
@@ -345,17 +17,17 @@
   url: http://www.tokbox.com/blog/hardware-setup-widget-set-up-your-users-for-success/
   domain: www.tokbox.com
   image: ""
-- curated_id: 930af42e9a2d557af2b1b5530c77bdd8
-  item_date: "2015-03-02 00:00:00"
-  title: Google Maps API Checker Uncovers Mapping API Problems
-  url: http://www.programmableweb.com/news/google-maps-api-checker-uncovers-mapping-api-problems/2015/03/02
-  domain: www.programmableweb.com
-  image: ""
 - curated_id: 2cb5c178e8ff8e29ab0bb8555fbe5365
   item_date: "2015-03-02 00:00:00"
   title: Embed Twitter-hosted video on your website
   url: https://blog.twitter.com/2015/embed-twitter-hosted-video-on-your-website
   domain: blog.twitter.com
+  image: ""
+- curated_id: 930af42e9a2d557af2b1b5530c77bdd8
+  item_date: "2015-03-02 00:00:00"
+  title: Google Maps API Checker Uncovers Mapping API Problems
+  url: http://www.programmableweb.com/news/google-maps-api-checker-uncovers-mapping-api-problems/2015/03/02
+  domain: www.programmableweb.com
   image: ""
 - curated_id: ef29fb06179311b5afec5bd99096cff0
   item_date: "2015-03-02 00:00:00"
@@ -417,16 +89,16 @@
   url: https://developer.salesforce.com/blogs/developer-relations/2015/04/lightning-components-javascript-api.html
   domain: developer.salesforce.com
   image: ""
-- curated_id: 1f62303ceaed894498249aa14ce53769
-  item_date: "2015-04-08 00:00:00"
-  title: Displaying Summary and Matrix Reports with Lightning Components
-  url: https://developer.salesforce.com/blogs/developer-relations/2015/04/displaying-summary-and-matrix-reports.html
-  domain: developer.salesforce.com
-  image: ""
 - curated_id: b20a32285b6c3cb9de377cc5fac2ab2b
   item_date: "2015-04-08 00:00:00"
   title: Creating a Salesforce Lightning Map Component
   url: https://developer.salesforce.com/blogs/developer-relations/2015/04/creating-salesforce-lightning-map-component.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 1f62303ceaed894498249aa14ce53769
+  item_date: "2015-04-08 00:00:00"
+  title: Displaying Summary and Matrix Reports with Lightning Components
+  url: https://developer.salesforce.com/blogs/developer-relations/2015/04/displaying-summary-and-matrix-reports.html
   domain: developer.salesforce.com
   image: ""
 - curated_id: 16c99758ff910975e80d5f3a6b8576b0
@@ -664,17 +336,17 @@
   url: http://venturebeat.com/2015/12/14/facebooks-latest-api-embeds-videos-right-into-apps/
   domain: venturebeat.com
   image: ""
-- curated_id: 95d22e5a5aac28318c3aad2202c27058
-  item_date: "2015-12-16 00:00:00"
-  title: Enhancements to the Classroom Share Button
-  url: http://googleappsdeveloper.blogspot.com/2015/12/enhancements-to-classroom-share-button.html
-  domain: googleappsdeveloper.blogspot.com
-  image: ""
 - curated_id: 8ab58002434ef11ce9f693c23f874b19
   item_date: "2015-12-16 00:00:00"
   title: Enhancements to the Classroom Share Button
   url: http://googledevelopers.blogspot.com/2015/12/enhancements-to-classroom-share-button.html
   domain: googledevelopers.blogspot.com
+  image: ""
+- curated_id: 95d22e5a5aac28318c3aad2202c27058
+  item_date: "2015-12-16 00:00:00"
+  title: Enhancements to the Classroom Share Button
+  url: http://googleappsdeveloper.blogspot.com/2015/12/enhancements-to-classroom-share-button.html
+  domain: googleappsdeveloper.blogspot.com
   image: ""
 - curated_id: da4a4a30ac694d21951fcc6ebdf3e672
   item_date: "2015-12-16 00:00:00"
@@ -791,18 +463,18 @@
   url: http://myinforms.com/en-us/a/35827699-twitter-eases-process-of-embedding-timelines/
   domain: myinforms.com
   image: ""
-- curated_id: a00c793e8810c04d01781edeb54c1c5a
-  item_date: "2016-06-21 00:00:00"
-  title: Slack Message Buttons ? Making messages more interactive with buttons
-  url: https://medium.com/m/global-identity
-  domain: medium.com
-  image: ""
 - curated_id: 6d36f2ca93ca6d31e8cea59a89d2ef69
   item_date: "2016-06-21 00:00:00"
   title: Slack supercharges its chat app with interactive integrations from third-party
     services
   url: http://thenextweb.com/apps/2016/06/22/slack-supercharges-chat-app-interactive-integrations-third-party-services/
   domain: thenextweb.com
+  image: ""
+- curated_id: a00c793e8810c04d01781edeb54c1c5a
+  item_date: "2016-06-21 00:00:00"
+  title: Slack Message Buttons ? Making messages more interactive with buttons
+  url: https://medium.com/m/global-identity
+  domain: medium.com
   image: ""
 - curated_id: 9163a08f82704e91c1e1ec080ff33f24
   item_date: "2016-06-28 00:00:00"
@@ -817,28 +489,28 @@
   url: https://twitter.com/whichlight/status/753309709256515584
   domain: twitter.com
   image: ""
-- curated_id: 082e8e44ba699bbe406e660e59dbc58a
-  item_date: "2016-08-02 00:00:00"
-  title: Medium nabs Embedly to add to its list of publisher tools
-  url: https://techcrunch.com/2016/08/02/medium-naps-embedly-to-add-to-its-list-of-publisher-tools/
-  domain: techcrunch.com
-  image: ""
 - curated_id: faa9d0050a46c88a3c54e4aba9393078
   item_date: "2016-08-02 00:00:00"
   title: Medium buys Embedly so we can all pinch snippets of text (and maybe video)
   url: http://thenextweb.com/insider/2016/08/02/medium-buys-embedly/
   domain: thenextweb.com
   image: ""
-- curated_id: 63273d6260b86b8312ebfcd9bb11afec
-  item_date: "2016-09-21 00:00:00"
-  title: How Twitter deploys its widgets JavaScript
-  url: https://blog.twitter.com/2016/how-twitter-deploys-its-widgets-javascript
-  domain: blog.twitter.com
+- curated_id: 082e8e44ba699bbe406e660e59dbc58a
+  item_date: "2016-08-02 00:00:00"
+  title: Medium nabs Embedly to add to its list of publisher tools
+  url: https://techcrunch.com/2016/08/02/medium-naps-embedly-to-add-to-its-list-of-publisher-tools/
+  domain: techcrunch.com
   image: ""
 - curated_id: 8e62937c972b1d3cf824d6cbb5d5d5fc
   item_date: "2016-09-26 00:00:00"
   title: 'Take the First Steps: Ways You Can Replace JavaScript Buttons'
   url: https://developer.salesforce.com/blogs/developer-relations/2016/09/take-the-first-steps-ways-you-can-replace-javascript-buttons.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: fc78dc9f0747593101a3060e3ea7cba9
+  item_date: "2016-09-28 00:00:00"
+  title: New Lightning Support in the Force.com IDE ? and Everywhere!
+  url: https://developer.salesforce.com/blogs/developer-relations/2016/09/new-lightning-support-force-com-ide-everywhere.html
   domain: developer.salesforce.com
   image: ""
 - curated_id: f9af1dfb9d7dde6b1419abdf94f8bb99
@@ -847,16 +519,82 @@
   url: https://stelligent.com/2016/09/26/one-button-everything-in-aws/
   domain: stelligent.com
   image: ""
-- curated_id: fc78dc9f0747593101a3060e3ea7cba9
-  item_date: "2016-09-28 00:00:00"
-  title: New Lightning Support in the Force.com IDE ? and Everywhere!
-  url: https://developer.salesforce.com/blogs/developer-relations/2016/09/new-lightning-support-force-com-ide-everywhere.html
-  domain: developer.salesforce.com
-  image: ""
 - curated_id: 2ebe7c1fd91662176dfeeb5e3b775ad0
   item_date: "2016-10-15 15:25:53"
   title: Dashing - The exceptionally handsome dashboard framework.
   url: http://dashing.io/
   domain: dashing.io
+  image: ""
+- curated_id: 53ea78577a5fc82fa21bbbdef4146ef1
+  item_date: "2016-12-19 00:00:00"
+  title: "Make JW Player Your Website\u2019s Hero"
+  url: https://www.jwplayer.com/blog/make-jw-player-websites-hero/
+  domain: www.jwplayer.com
+  image: ""
+- curated_id: 1f4910f5c82d60bbab9a0e828ceb80af
+  item_date: "2016-12-28 12:32:02"
+  title: Population Clock
+  url: http://www.census.gov/popclock/
+  domain: www.census.gov
+  image: ""
+- curated_id: 84d8a6987cbeca7a26b885b58b4892fe
+  item_date: "2017-01-04 00:00:00"
+  title: Say Hello to Base Lightning Components
+  url: https://developer.salesforce.com/blogs/developer-relations/2017/01/base-lightning-components.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 0a5c7fcd5464793cf11aa25c2db13479
+  item_date: "2017-01-12 00:00:00"
+  title: Bring Your Page to Life with Reactive Animations
+  url: http://zurb.com/article/1464/bring-your-page-to-life-with-reactive-ani
+  domain: zurb.com
+  image: ""
+- curated_id: 63273d6260b86b8312ebfcd9bb11afec
+  item_date: "2017-02-02 00:00:00"
+  title: How Twitter deploys its widgets JavaScript
+  url: https://blog.twitter.com/2016/how-twitter-deploys-its-widgets-javascript
+  domain: blog.twitter.com
+  image: ""
+- curated_id: 9371cbe0c0a972974825cf203b1733ba
+  item_date: "2017-02-06 09:42:21"
+  title: Web Share API brings the native sharing capabilities to the browser
+  url: https://blog.hospodarets.com/web-share-api
+  domain: blog.hospodarets.com
+  image: ""
+- curated_id: 6f929b09022d663baa50c179685238af
+  item_date: "2017-02-24 00:00:00"
+  title: How to migrate from Legacy Buttons to Inline Buttons!
+  url: http://www.sharethis.com/installation/2017/02/migrate-legacy-buttons-inline-buttons/
+  domain: www.sharethis.com
+  image: ""
+- curated_id: 24c89a40bc0f7d2a2642e39e4315a9a3
+  item_date: "2017-04-10 00:00:00"
+  title: Creating a Share Button Web Component
+  url: https://paul.kinlan.me/creating-a-share-button-web-component/
+  domain: paul.kinlan.me
+  image: ""
+- curated_id: 8de6436675b93af221f61feb69bc0e7b
+  item_date: "2017-04-21 00:00:00"
+  title: Embed Mastodon Statuses in WordPress
+  url: https://wptavern.com/embed-mastodon-statuses-in-wordpress
+  domain: wptavern.com
+  image: ""
+- curated_id: 1885152e956fbf787114acf980d2b4c2
+  item_date: "2017-04-24 00:00:00"
+  title: 'Dashboard: Drag  Drop Visuals and Export using JavaScript Libraries'
+  url: https://techshard.com/2017/04/02/dashboard-drag-drop-visuals-and-export/
+  domain: techshard.com
+  image: ""
+- curated_id: b9c90da600955b09f3aa716185b854b8
+  item_date: "2017-04-25 00:00:00"
+  title: Mastering Salesforce Lightning Design System Grids and Lightning Layouts
+  url: https://developer.salesforce.com/blogs/developer-relations/2017/04/mastering-salesforce-lightning-design-system-grids-lightning-layouts.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: de335a01021d260e9d7103371622ad23
+  item_date: "2017-04-26 00:00:00"
+  title: A Quick Intro To BookMarkLets
+  url: https://dzone.com/articles/a-quick-intro-to-bookmarklets
+  domain: dzone.com
   image: ""
 ...
