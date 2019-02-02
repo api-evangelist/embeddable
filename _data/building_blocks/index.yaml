@@ -1,119 +1,165 @@
-- building_block_id: language-support
-  type: Embeddable
-  category: Overview
-  name: Language Support
-  description: Providing support for multiple languages across embeddable elements.
-  image: ''
-  tags: Embeddable
-- building_block_id: css-control
-  type: Embeddable
-  category: Overview
-  name: CSS Control
-  description: Providing support over CSS elements for embeddable elements.
-  image: ''
-  tags: Embeddable
-- building_block_id: analytics
-  type: Embeddable
-  category: Overview
-  name: Analytics
-  description: Providing analytics as part of the embeddable tooling operations.
-  image: ''
-  tags: Embeddable
-- building_block_id: widgets
-  type: Embeddable
-  category: Embeddable Tools
-  name: Widgets
-  description: >-
-    Widgets are highly functional, API is driven​ JavaScript tools that provide
-    portable applications that can be embedded on any website or application.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-widget.png
-  tags: 'Management,API Management Embeddable,Embeddable'
-- building_block_id: buttons
-  type: Embeddable
-  category: Embeddable Tools
-  name: Buttons
-  description: >-
-    Buttons are shareable snippets of code that often share, syndicate or
-    trigger a variety of events that use APIs as their source.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-power-button.png
-  tags: 'Management,API Management Embeddable,Embeddable'
-- building_block_id: badges
-  type: Embeddable
-  category: Embeddable Tools
-  name: Badges
-  description: >-
-    Badges are common for displaying content and resources delivered via an API
-    and allow these assets to be embedded on any website or application.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-badges.png
-  tags: 'Management,API Management Embeddable,Embeddable'
-- building_block_id: bookmarklet
-  type: Embeddable
-  category: Embeddable Tools
-  name: Bookmarklet
-  description: >-
-    A bookmarklet that can be added to the toolbar of a browser, and quickly
-    push data to an API.
-  image: ''
-  tags: Embeddable
-- building_block_id: login-button
-  type: Embeddable
-  category: Embeddable Tools
-  name: Login Button
-  description: Providing a single click button for logging into system.
-  image: ''
-  tags: Embeddable
-- building_block_id: intents
-  type: Embeddable
-  category: Embeddable Tools
-  name: Intents
-  description: >-
-    providing the ability to easily make a single, or orchestrate several API
-    calls -- fulfilling a single intent.
-  image: ''
-  tags: Embeddable
-- building_block_id: widget-builder
-  type: Embeddable
-  category: Embed Engines
-  name: Widget Builder
-  description: >-
-    A widget builder provides a form that API consumers can use to configure a
-    predefined widget that is integrated with an API, allowing them to customize
-    and tailor the widget experience.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-embeddable.png
-  tags: 'Management,API Management Embeddable,Embeddable'
-- building_block_id: javascript-api
-  type: Embeddable
-  category: Embed Engines
-  name: JavaScript API
-  description: >-
-    A complete JavaScript API that developers can use to build and manage their
-    own JavaScript integrations with an APIs resources, beyond existing widgets.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-javascript-api.png
-  tags: 'Management,API Management Embeddable,Embeddable'
-- building_block_id: open-graph-protocol
-  type: Embeddable
-  category: Embed Formats
-  name: Open Graph Protocol
-  description: >-
-    The Open Graph protocol enables any web page to become a rich object in a
-    social graph, by embedding of simple tags in the pages header that describe
-    objects.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/open-graph-logo.png
-  tags: 'Embeddable,Facebook,Embeddable'
-- building_block_id: oembed
-  type: Embeddable
-  category: Embed Formats
-  name: oEmbed
-  description: >-
-    Format for allowing an embedded representation of a URL on third party sites
-    to display embedded content (such as photos or videos) when a user posts a
-    link to that resource.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/oembed-logo.png
-  tags: 'Embeddable,Embeddable'
+- building_block_id: web-concepts
+  type: Definitions
+  category: Formats
+  name: Web Concepts
+  descripion: >-
+    APIs are built on the web, and there are numerous web concepts in play that
+    should be considered as part of the API design process.
+  logo: ''
+  tags: Definitions
+- building_block_id: specification
+  type: Definitions
+  category: Formats
+  name: Specification
+  descripion: >-
+    The root specification for the API definition format, providing a base set
+    of rules for all services and tools that employ the spec.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png
+  tags: Definitions
+- building_block_id: schema
+  type: Definitions
+  category: Formats
+  name: Schema
+  descripion: >-
+    A representation of data model, used as part of an API request, or response,
+    usually in JSON, but increasingly YAML, and Markdown are also used.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png
+  tags: Definitions
+- building_block_id: generator
+  type: Definitions
+  category: Tooling
+  name: Generator
+  descripion: >-
+    Generating an API definition format from an existing system or platform,
+    outputting the portable machine readable format.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-generate.png
+  tags: Definitions
+- building_block_id: parser
+  type: Definitions
+  category: Tooling
+  name: Parser
+  descripion: >-
+    Parses a machine readable API definition and makes ready for use in specific
+    language, structure, or platform.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-parse.png
+  tags: Definitions
+- building_block_id: validator
+  type: Definitions
+  category: Tooling
+  name: Validator
+  descripion: >-
+    Validates an API definition against its formal specification and schema,
+    producing a valid or invalid response, with as much detail as possible.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-valid.png
+  tags: Definitions
+- building_block_id: converter
+  type: Definitions
+  category: Tooling
+  name: Converter
+  descripion: >-
+    The conversion of an API definition from one format into another, allowing
+    designers to share API definitions in any format.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-conversion.png
+  tags: Definitions
+- building_block_id: commandline
+  type: Definitions
+  category: Tooling
+  name: Command-Line
+  descripion: The usage of machine readable API definitions at the command line.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png
+  tags: Definitions
+- building_block_id: powershell
+  type: Definitions
+  category: Tooling
+  name: Powershell
+  descripion: The usage of machine readable API definitions via the powershell interface.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png
+  tags: Definitions
+- building_block_id: aggregator
+  type: Definitions
+  category: Tooling
+  name: Aggregator
+  descripion: Aggregation of APIs using a machine readable API definition format.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-arrow-aggregate.png
+  tags: Definitions
+- building_block_id: translator
+  type: Definitions
+  category: Tooling
+  name: Translator
+  descripion: >-
+    Being able to translate an API definition format from one format to another,
+    either manually or automatically.
+  logo: ''
+  tags: Definitions
+- building_block_id: merging
+  type: Definitions
+  category: Tooling
+  name: Merging
+  descripion: >-
+    Tooling or other APIs that provide for the merging of common API definition
+    formats, allowing the granularity of what elements get merged, or do not get
+    merged. Ideally, this is an API, as well as simple web-based or desktop
+    tooling for API providers and consumers.
+  logo: ''
+  tags: Definitions
+- building_block_id: diff
+  type: Definitions
+  category: Tooling
+  name: Diff
+  descripion: >-
+    Providing side by side comparison of two API definitions, programmatically
+    and visually helping identify between two API definitions. This allows for
+    API architects, designers, and consumers to understand the completeness of
+    two definitions, in relation to each other.
+  logo: ''
+  tags: Definitions
+- building_block_id: editors
+  type: Definitions
+  category: Environment
+  name: Editors
+  descripion: >-
+    API definition editor, allowing for the creation, import, and export of API
+    definition formats, providing a simple, IDE like API editing experience.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-editor.png
+  tags: Definitions
+- building_block_id: ide-plugin
+  type: Definitions
+  category: Environment
+  name: IDE Plugin
+  descripion: >-
+    Providing integration with existing integrated development environments
+    (IDE), giving developers API discovery, documentation, and integration
+    tooling within the IDE.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-editor.png
+  tags: Definitions
+- building_block_id: forms
+  type: Definitions
+  category: Environment
+  name: Forms
+  descripion: >-
+    Dynamically generating an HTML form from an API definition, allow for the
+    structure, and handling to be driven by an API definition.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-forms.png
+  tags: Definitions
+- building_block_id: github
+  type: Definitions
+  category: Environment
+  name: GIthub
+  descripion: >-
+    Allowing for the import, publishing, and syncing of API definitions and
+    schemas to Github for forking, and management using the social coding
+    platform.
+  logo: ''
+  tags: Definitions
