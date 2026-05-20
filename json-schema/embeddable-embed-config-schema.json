@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/json-schema/embeddable-embed-config-schema.json",
+  "title": "EmbedConfig",
+  "description": "Configuration object passed by a host application to initialize an embedded widget, JS SDK, or iframe experience.",
+  "type": "object",
+  "properties": {
+    "provider": {
+      "type": "string",
+      "description": "Vendor providing the embeddable widget or SDK.",
+      "example": "Stripe"
+    },
+    "widget_type": {
+      "type": "string",
+      "description": "Category of embeddable experience being rendered.",
+      "enum": [
+        "payment",
+        "identity",
+        "financial-link",
+        "map",
+        "media-player",
+        "chat",
+        "scheduling",
+        "form",
+        "analytics-dashboard",
+        "video-conference",
+        "auth",
+        "comments",
+        "other"
+      ],
+      "example": "payment"
+    },
+    "embed_mode": {
+      "type": "string",
+      "description": "How the widget is mounted into the host page.",
+      "enum": ["inline", "iframe", "popup", "drawer", "modal", "side-tab", "full-page", "script-tag", "web-component"],
+      "example": "inline"
+    },
+    "container_selector": {
+      "type": "string",
+      "description": "CSS selector or DOM id of the host element that should mount the widget.",
+      "example": "#payment-element"
+    },
+    "publishable_key": {
+      "type": "string",
+      "description": "Public, browser-safe key issued by the provider that authorizes the embed.",
+      "example": "pk_test_51Hxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "session_token": {
+      "type": "string",
+      "description": "Short-lived, server-issued token scoped to a single embed session (e.g. Plaid link token, Looker embed JWT).",
+      "example": "link-sandbox-abc123-9d4e-4f9a-9c4d-1234567890ab"
+    },
+    "theme": {
+      "type": "object",
+      "description": "Theming overrides applied to the embedded experience.",
+      "properties": {
+        "mode": { "type": "string", "enum": ["light", "dark", "auto"], "example": "light" },
+        "primary_color": { "type": "string", "example": "#635BFF" },
+        "font_family": { "type": "string", "example": "Inter, system-ui, sans-serif" },
+        "border_radius": { "type": "string", "example": "8px" }
+      }
+    },
+    "locale": {
+      "type": "string",
+      "description": "BCP 47 locale code used to localize the embed UI.",
+      "example": "en-US"
+    },
+    "allowed_origins": {
+      "type": "array",
+      "description": "Host origins permitted to load this embed (configured server-side and enforced via CSP and frame-ancestors).",
+      "items": { "type": "string", "format": "uri" },
+      "example": ["https://app.example.com", "https://staging.example.com"]
+    },
+    "events": {
+      "type": "array",
+      "description": "Lifecycle and domain events the host wants to subscribe to via postMessage or SDK callbacks.",
+      "items": { "type": "string" },
+      "example": ["ready", "success", "error", "dismiss"]
+    }
+  },
+  "required": ["provider", "widget_type", "embed_mode"]
+}

@@ -1,0 +1,26 @@
+{
+  "provider": "Stripe",
+  "widget_type": "payment",
+  "embed_mode": "inline",
+  "container_selector": "#payment-element",
+  "publishable_key": "pk_test_51Hxxxxxxxxxxxxxxxxxxxxxx",
+  "session_token": "cs_test_abc123_9d4e_4f9a_9c4d_1234567890ab",
+  "theme": {
+    "mode": "light",
+    "primary_color": "#635BFF",
+    "font_family": "Inter, system-ui, sans-serif",
+    "border_radius": "8px"
+  },
+  "locale": "en-US",
+  "allowed_origins": [
+    "https://app.example.com",
+    "https://staging.example.com"
+  ],
+  "events": [
+    "ready",
+    "change",
+    "success",
+    "error",
+    "dismiss"
+  ]
+}

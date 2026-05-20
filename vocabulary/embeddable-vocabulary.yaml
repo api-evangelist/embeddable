@@ -1,0 +1,306 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Embeddable
+  description: Vocabulary for the embeddable topic, covering embeddable widgets, JS SDKs, iframe experiences, drop-in UI components, and embedded analytics.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Stripe Elements and Checkout
+      namespace: stripe
+      status: active
+    - name: Plaid Link
+      namespace: plaid
+      status: active
+    - name: Mapbox GL JS
+      namespace: mapbox
+      status: active
+    - name: Intercom Messenger
+      namespace: intercom
+      status: active
+    - name: Calendly Inline Widget
+      namespace: calendly
+      status: active
+    - name: Typeform Embed
+      namespace: typeform
+      status: active
+    - name: Auth0 Lock
+      namespace: auth0
+      status: active
+    - name: Looker Embedded Analytics
+      namespace: looker
+      status: active
+    - name: Apache Superset Embedded
+      namespace: apache-superset
+      status: active
+
+  resources:
+    - name: embed-configs
+      description: Configuration objects describing how a widget should be mounted into a host page
+      actions:
+        - get
+        - create
+        - update
+        - delete
+    - name: widget-instances
+      description: Live, running instances of an embedded widget on a host page
+      actions:
+        - list
+        - get
+        - mount
+        - dismiss
+    - name: embed-tokens
+      description: Short-lived, server-issued tokens scoped to a single embed session
+      actions:
+        - create
+        - get
+        - revoke
+    - name: theme-overrides
+      description: Style and theme configuration applied to an embedded widget
+      actions:
+        - get
+        - update
+    - name: events
+      description: Lifecycle and domain events emitted by an embedded widget back to the host page
+      actions:
+        - subscribe
+        - list
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: create
+      description: Create a new resource
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+    - name: mount
+      description: Render an embedded widget into a host DOM container
+      httpMethod: CLIENT
+      pattern: ui
+    - name: dismiss
+      description: Tear down or close an embedded widget instance
+      httpMethod: CLIENT
+      pattern: ui
+    - name: subscribe
+      description: Register a host callback for an event emitted by the embedded widget
+      httpMethod: CLIENT
+      pattern: event
+    - name: revoke
+      description: Invalidate a previously issued embed token
+      httpMethod: DELETE
+      pattern: destructive
+
+  schemas:
+    core:
+      - name: EmbedConfig
+        description: Host-side configuration for initializing an embedded widget
+        properties:
+          - provider
+          - widget_type
+          - embed_mode
+          - container_selector
+          - publishable_key
+          - session_token
+          - theme
+          - locale
+          - allowed_origins
+          - events
+      - name: WidgetInstance
+        description: A running instance of an embedded widget on a host page
+        properties:
+          - instance_id
+          - provider
+          - widget_type
+          - host
+          - embed_mode
+          - session_token
+          - status
+          - user_ref
+          - created_at
+          - expires_at
+          - last_event
+      - name: EmbedToken
+        description: A short-lived token issued by a provider that authorizes a single embed session
+        properties:
+          - token
+          - provider
+          - widget_type
+          - scope
+          - expires_at
+      - name: ThemeOverrides
+        description: Style overrides applied to an embedded widget
+        properties:
+          - mode
+          - primary_color
+          - font_family
+          - border_radius
+
+  enums:
+    widget_types:
+      - payment
+      - identity
+      - financial-link
+      - map
+      - media-player
+      - chat
+      - scheduling
+      - form
+      - analytics-dashboard
+      - video-conference
+      - auth
+      - comments
+    embed_modes:
+      - inline
+      - iframe
+      - popup
+      - drawer
+      - modal
+      - side-tab
+      - full-page
+      - script-tag
+      - web-component
+    lifecycle_states:
+      - initializing
+      - ready
+      - in-progress
+      - succeeded
+      - failed
+      - dismissed
+      - expired
+    theme_modes:
+      - light
+      - dark
+      - auto
+
+capability:
+  workflows:
+    - name: Embedded Payment Capture
+      description: Render Stripe Elements, Braintree Drop-in, Adyen Components, or Square Web Payments SDK in a checkout flow and capture a tokenized payment method without the host server seeing raw card data
+      apis:
+        - stripe
+        - braintree
+        - adyen
+        - square
+      personas:
+        - Product Engineer
+      domains:
+        - Payments Embed
+    - name: Bank Account Linking
+      description: Embed Plaid Link in an onboarding flow so an end user can authenticate with their bank and return a public token to the host
+      apis:
+        - plaid
+      personas:
+        - Product Engineer
+      domains:
+        - Financial Embed
+    - name: Embedded Support Chat
+      description: Drop Intercom Messenger, Drift, Crisp, Olark, LiveChat, Zendesk Web Widget, Help Scout Beacon, or Freshdesk Messaging into a site through a single script tag
+      apis:
+        - intercom
+        - drift
+        - crisp
+        - olark
+        - livechat
+        - zendesk
+        - helpscout
+        - freshdesk
+      personas:
+        - Growth Engineer
+      domains:
+        - Support Embed
+    - name: Embedded BI Dashboards
+      description: Embed Looker, Sigma, Cube, Mode, Apache Superset, Metabase, Knowi, Qlik Mashups, Power BI, SAP BI Tools, or Tableau dashboards inside a SaaS product using signed JWTs and iframe SDKs
+      apis:
+        - looker
+        - apache-superset
+        - metabase
+        - knowi
+        - qlik-mashups
+        - power-bi
+        - sap-bi-tools
+        - tableau
+      personas:
+        - Analytics Engineer
+      domains:
+        - Analytics Embed
+
+  personas:
+    - id: product-engineer
+      name: Product Engineer
+      description: Engineers integrating payments, identity, and financial-link widgets into product surfaces
+      workflows:
+        - Embedded Payment Capture
+        - Bank Account Linking
+    - id: growth-engineer
+      name: Growth Engineer
+      description: Engineers and marketers wiring chat, forms, scheduling, and onboarding widgets into marketing sites and SaaS apps
+      workflows:
+        - Embedded Support Chat
+    - id: analytics-engineer
+      name: Analytics Engineer
+      description: Engineers and analysts embedding BI dashboards and charts inside customer-facing SaaS products
+      workflows:
+        - Embedded BI Dashboards
+    - id: identity-engineer
+      name: Identity Engineer
+      description: Engineers wiring Auth0 Lock, hosted login, and identity widgets into the host application
+      workflows:
+        - Embedded Payment Capture
+
+  domains:
+    - name: Payments Embed
+      description: Drop-in payment UIs that keep card data out of the host PCI scope
+    - name: Financial Embed
+      description: Bank linking, KYC, and financial data widgets such as Plaid Link
+    - name: Support Embed
+      description: Live chat, messaging, and helpdesk widgets dropped into a site via a script tag
+    - name: Analytics Embed
+      description: Embedded BI dashboards and visualizations rendered inside customer-facing products
+
+crossReference:
+  - resource: embed-configs
+    operations:
+      - create
+      - get
+    workflows:
+      - Embedded Payment Capture
+      - Bank Account Linking
+    personas:
+      - Product Engineer
+  - resource: widget-instances
+    operations:
+      - mount
+      - dismiss
+      - list
+    workflows:
+      - Embedded Support Chat
+      - Embedded BI Dashboards
+    personas:
+      - Growth Engineer
+      - Analytics Engineer
+  - resource: embed-tokens
+    operations:
+      - create
+      - revoke
+    workflows:
+      - Embedded BI Dashboards
+      - Bank Account Linking
+    personas:
+      - Analytics Engineer
+      - Product Engineer

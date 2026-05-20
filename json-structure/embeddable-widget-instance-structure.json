@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/json-structure/embeddable-widget-instance-structure.json",
+  "name": "WidgetInstance",
+  "description": "A running instance of an embedded widget on a host page, including its host context, lifecycle state, and the signed token used to authorize it.",
+  "type": "object",
+  "properties": {
+    "instance_id": {
+      "type": "string",
+      "description": "Unique identifier for the rendered widget instance.",
+      "example": "wi_01HXYZ7N8K2QF8E4G5R3SA9PQ2"
+    },
+    "provider": {
+      "type": "string",
+      "description": "Vendor providing the widget.",
+      "example": "Plaid"
+    },
+    "widget_type": {
+      "type": "string",
+      "description": "Category of embedded experience.",
+      "enum": [
+        "payment",
+        "identity",
+        "financial-link",
+        "map",
+        "media-player",
+        "chat",
+        "scheduling",
+        "form",
+        "analytics-dashboard",
+        "video-conference",
+        "auth",
+        "comments",
+        "other"
+      ],
+      "example": "financial-link"
+    },
+    "host": {
+      "type": "object",
+      "description": "Information about the host page that mounted the widget.",
+      "properties": {
+        "origin": {
+          "type": "uri",
+          "example": "https://app.example.com"
+        },
+        "page_url": {
+          "type": "uri",
+          "example": "https://app.example.com/onboarding/bank"
+        },
+        "user_agent": {
+          "type": "string",
+          "example": "Mozilla/5.0 ... Chrome/123.0"
+        }
+      }
+    },
+    "embed_mode": {
+      "type": "string",
+      "description": "How the widget is currently mounted.",
+      "enum": [
+        "inline",
+        "iframe",
+        "popup",
+        "drawer",
+        "modal",
+        "side-tab",
+        "full-page",
+        "script-tag",
+        "web-component"
+      ],
+      "example": "popup"
+    },
+    "session_token": {
+      "type": "string",
+      "description": "Short-lived token authorizing this widget instance.",
+      "example": "link-sandbox-abc123-9d4e-4f9a-9c4d-1234567890ab"
+    },
+    "status": {
+      "type": "string",
+      "description": "Lifecycle state of the widget instance.",
+      "enum": [
+        "initializing",
+        "ready",
+        "in-progress",
+        "succeeded",
+        "failed",
+        "dismissed",
+        "expired"
+      ],
+      "example": "ready"
+    },
+    "user_ref": {
+      "type": "string",
+      "description": "Opaque reference to the end user in the host system.",
+      "example": "user_8f2c1c7e"
+    },
+    "created_at": {
+      "type": "datetime",
+      "description": "Timestamp the widget instance was created on the host page.",
+      "example": "2026-05-19T15:42:11Z"
+    },
+    "expires_at": {
+      "type": "datetime",
+      "description": "Timestamp the underlying session token expires.",
+      "example": "2026-05-19T16:42:11Z"
+    },
+    "last_event": {
+      "type": "object",
+      "description": "Most recent lifecycle or domain event emitted by the widget.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "example": "success"
+        },
+        "timestamp": {
+          "type": "datetime",
+          "example": "2026-05-19T15:43:02Z"
+        },
+        "payload": {
+          "type": "object"
+        }
+      }
+    }
+  },
+  "required": [
+    "instance_id",
+    "provider",
+    "widget_type",
+    "embed_mode",
+    "status"
+  ]
+}

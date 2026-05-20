@@ -1,0 +1,196 @@
+aid: embeddable
+name: Embeddable
+description: >-
+  An index and topic collection covering embeddable widgets, JavaScript SDKs, iframe-able experiences, and embedded analytics. Embeddable platforms allow product teams to drop pre-built UI components, payment flows, chat widgets,
+  media players, forms, maps, dashboards, and authentication experiences directly into a host site or application via a script tag, iframe, or JS SDK. This collection includes payment elements like Stripe Elements and Stripe Checkout,
+  financial linking like Plaid Link, mapping like Mapbox GL JS and Google Maps Embed, media players from YouTube, Vimeo, and Wistia, chat widgets from Intercom, Drift, Crisp, and Tawk-style services, scheduling widgets like Calendly,
+  forms from HubSpot, Typeform, JotForm and Gravity Forms, identity via Auth0 Lock, chat SDKs from Stream and Sendbird, and embedded analytics from Looker, Apache Superset, Sigma, Cube, Mode, Metabase, Qlik Mashups, SAP BI Tools, Power BI,
+  and Tableau.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Embeddable
+- Widget
+- Embedded Analytics
+- JS SDK
+- iframe
+- Embed
+- Drop-in UI
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: Adyen
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/apis.yml
+- name: Amplitude
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/apis.yml
+- name: Apache Superset
+  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/apis.yml
+- name: Auth0
+  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/apis.yml
+- name: Braintree
+  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/apis.yml
+- name: Bubble
+  url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/apis.yml
+- name: Cal.com
+  url: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/apis.yml
+- name: Calendly
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/apis.yml
+- name: Canva
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/apis.yml
+- name: ChatGPT
+  url: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/apis.yml
+- name: Crisp
+  url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/apis.yml
+- name: Disqus
+  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/apis.yml
+- name: DocuSign
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/apis.yml
+- name: Drift
+  url: https://raw.githubusercontent.com/api-evangelist/drift/refs/heads/main/apis.yml
+- name: Formspree
+  url: https://raw.githubusercontent.com/api-evangelist/formspree/refs/heads/main/apis.yml
+- name: Freshdesk
+  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/apis.yml
+- name: FullStory
+  url: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/apis.yml
+- name: Google Maps
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/apis.yml
+- name: Gravity Forms
+  url: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/apis.yml
+- name: Heap
+  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/apis.yml
+- name: Help Scout
+  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/apis.yml
+- name: Hotjar
+  url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/apis.yml
+- name: HubSpot
+  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/apis.yml
+- name: Intercom
+  url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/apis.yml
+- name: JotForm
+  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/apis.yml
+- name: Knowi
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/apis.yml
+- name: LiveChat
+  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/apis.yml
+- name: Looker
+  url: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/apis.yml
+- name: Mapbox
+  url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/apis.yml
+- name: Metabase
+  url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/apis.yml
+- name: Mixpanel
+  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/apis.yml
+- name: Olark
+  url: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/apis.yml
+- name: OpenAI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/apis.yml
+- name: Pendo
+  url: https://raw.githubusercontent.com/api-evangelist/pendo/refs/heads/main/apis.yml
+- name: Plaid
+  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/apis.yml
+- name: Power BI
+  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/apis.yml
+- name: Qlik Mashups
+  url: https://raw.githubusercontent.com/api-evangelist/qlik-mashups/refs/heads/main/apis.yml
+- name: SAP BI Tools
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/apis.yml
+- name: Segment
+  url: https://raw.githubusercontent.com/api-evangelist/segment/refs/heads/main/apis.yml
+- name: Sendbird
+  url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/apis.yml
+- name: SoundCloud
+  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/apis.yml
+- name: Square
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/apis.yml
+- name: Stream
+  url: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/apis.yml
+- name: Stripe
+  url: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/apis.yml
+- name: Tableau
+  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/apis.yml
+- name: Twilio
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/apis.yml
+- name: Typeform
+  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/apis.yml
+- name: Userpilot
+  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/apis.yml
+- name: Vimeo
+  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/apis.yml
+- name: Wistia
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/apis.yml
+- name: YouTube
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/apis.yml
+- name: Zendesk
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: Drop-in UI Components
+    description: Embeddable platforms ship pre-built, brandable UI components that drop into a host page via a script tag, web component, or framework binding without requiring developers to build the experience from scratch.
+  - name: Iframe and Script-Tag Distribution
+    description: Most embeddable widgets are delivered as either a hosted iframe or a small JavaScript bootstrap that injects an isolated DOM subtree into the host site, insulating it from CSS and JS conflicts.
+  - name: Tokenized and Scoped Authentication
+    description: Embeds use short-lived, server-issued tokens (publishable keys, link tokens, JWTs, session tokens) so the host site can render the widget without exposing long-lived provider credentials in the browser.
+  - name: Theme and Style Customization
+    description: Embeds expose theming hooks - color tokens, fonts, CSS variables, layout options - so the embedded experience matches the host product's visual identity.
+  - name: Postmessage and Callback Event Model
+    description: Embedded widgets communicate with the host page through postMessage events, callback functions, or SDK event listeners covering lifecycle states like ready, success, error, and dismiss.
+  - name: Embedded Analytics and Dashboards
+    description: BI vendors like Looker, Sigma, Cube, Mode, Apache Superset, Metabase, Power BI, and Tableau ship embed SDKs and signed iframe URLs so customers can drop full dashboards into their own SaaS products.
+  - name: PCI, KYC, and Compliance Offloading
+    description: Embeds for payments, identity, and financial data (Stripe Elements, Plaid Link, Auth0 Lock) keep sensitive data inside the provider's frame so the host product stays out of PCI, KYC, and compliance scope.
+  - name: Mobile SDK and Web Parity
+    description: Most embeddable platforms ship matching iOS, Android, and React Native SDKs alongside the JS widget so the same experience can be embedded across web and mobile apps.
+- type: UseCases
+  data:
+  - name: Accepting Payments Without PCI Scope
+    description: Drop Stripe Elements, Stripe Checkout, Braintree Drop-in, Adyen Components, or Square Web Payments SDK into a checkout flow to capture cards without the host server ever touching raw PAN data.
+  - name: Linking Bank Accounts and Financial Data
+    description: Embed Plaid Link in a fintech onboarding flow so users can authenticate with their bank, link accounts, and grant data access without leaving the host application.
+  - name: Embedding Maps and Location Pickers
+    description: Drop Mapbox GL JS or the Google Maps Embed into a marketplace, real estate, or logistics product to render interactive maps, search by address, and place markers without building map tiles in-house.
+  - name: Adding Live Chat and Support Widgets
+    description: Embed Intercom Messenger, Drift, Crisp, Olark, LiveChat, Help Scout Beacon, Zendesk Web Widget, or Freshdesk Messaging to add support and sales chat to any site through a single script tag.
+  - name: Inline Scheduling and Booking
+    description: Embed Calendly or Cal.com inline widgets into marketing sites and SaaS dashboards so prospects and customers can book meetings without bouncing to a third-party scheduler.
+  - name: Embedded Forms and Lead Capture
+    description: Drop HubSpot Forms, Typeform, JotForm, Gravity Forms, or Formspree into landing pages and product surfaces to capture leads, feedback, and onboarding data without backend work.
+  - name: Embedded BI Dashboards in SaaS
+    description: SaaS vendors embed Looker, Sigma, Cube, Mode, Apache Superset, Metabase, Knowi, Qlik Mashups, Power BI, SAP BI Tools, or Tableau to give customers in-app dashboards branded as part of the host product.
+  - name: Login, Signup, and Identity as a Widget
+    description: Embed Auth0 Lock or hosted login pages to give the host product a full identity experience - email/password, social, MFA, passwordless - without building auth screens.
+- type: Integrations
+  data:
+  - name: Stripe Elements and Checkout
+    description: Pre-built, PCI-scope-reducing UI components and a hosted checkout page that drop into any web or mobile app to accept cards, wallets, ACH, and BNPL.
+  - name: Plaid Link
+    description: Drop-in flow that lets end users authenticate with their bank, link accounts, and grant data access in a few clicks, returning a public token to the host app.
+  - name: Mapbox GL JS
+    description: WebGL-based JS SDK for embedding interactive vector maps, custom styles, 3D terrain, and geocoding into web applications.
+  - name: Google Maps Embed
+    description: Iframe-based embed and JavaScript SDK for placing Google Maps, Street View, directions, and search into any host page.
+  - name: Intercom Messenger
+    description: Embeddable customer messaging widget delivered via a single script tag, with conversation routing, product tours, and inbox tooling on the operator side.
+  - name: Calendly Inline Widget
+    description: Embeddable scheduling experience that drops into a host page as an inline widget, popup, or popup text link to capture bookings.
+  - name: Typeform Embed
+    description: Iframe and JS embed for Typeform conversational forms in inline, popup, drawer, side-tab, popover, and full-page modes.
+  - name: Auth0 Lock and Universal Login
+    description: Embeddable login widget and hosted login pages that handle email/password, social, MFA, and passwordless flows for the host product.
+  - name: Looker and Sigma Embedded Analytics
+    description: Embedded analytics SDKs and signed iframe URLs for dropping BI dashboards, explores, and visualizations directly into customer-facing SaaS products.
+  - name: Apache Superset and Cube Embedded
+    description: Open-source and headless embedded analytics platforms providing JWT-signed dashboards, charts, and semantic-layer-driven embeds.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com

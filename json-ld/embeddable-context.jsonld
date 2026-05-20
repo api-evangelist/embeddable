@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "embed": "https://api-evangelist.github.io/embeddable/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "EmbedConfig": "embed:EmbedConfig",
+    "WidgetInstance": "embed:WidgetInstance",
+    "EmbedToken": "embed:EmbedToken",
+    "ThemeOverrides": "embed:ThemeOverrides",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "provider": "schema:provider",
+
+    "widget_type": {
+      "@id": "embed:widget_type",
+      "@type": "xsd:string"
+    },
+    "embed_mode": {
+      "@id": "embed:embed_mode",
+      "@type": "xsd:string"
+    },
+    "container_selector": {
+      "@id": "embed:container_selector",
+      "@type": "xsd:string"
+    },
+    "publishable_key": {
+      "@id": "embed:publishable_key",
+      "@type": "xsd:string"
+    },
+    "session_token": {
+      "@id": "embed:session_token",
+      "@type": "xsd:string"
+    },
+    "theme": {
+      "@id": "embed:theme",
+      "@type": "@id"
+    },
+    "locale": {
+      "@id": "schema:inLanguage",
+      "@type": "xsd:string"
+    },
+    "allowed_origins": {
+      "@id": "embed:allowed_origins",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "events": {
+      "@id": "embed:events",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "instance_id": {
+      "@id": "dcterms:identifier",
+      "@type": "xsd:string"
+    },
+    "host": {
+      "@id": "embed:host",
+      "@type": "@id"
+    },
+    "origin": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "page_url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "user_agent": {
+      "@id": "embed:user_agent",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "embed:status",
+      "@type": "xsd:string"
+    },
+    "user_ref": {
+      "@id": "embed:user_ref",
+      "@type": "xsd:string"
+    },
+    "created_at": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+    "expires_at": {
+      "@id": "embed:expires_at",
+      "@type": "xsd:dateTime"
+    },
+    "last_event": {
+      "@id": "embed:last_event",
+      "@type": "@id"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    }
+  }
+}
