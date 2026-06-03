@@ -1,0 +1,27 @@
+title: Embeddable
+description: An index and topic collection covering embeddable widgets, JavaScript
+  SDKs, iframe-able experiences, and embedded analytics. Embeddable platforms allow
+  product teams to drop pre-built UI components, payment flows, chat widgets, media
+  players, forms, maps, dashboards, and authentication experiences directly into a
+  host site or application via a script tag, iframe, or JS SDK. This collection includes
+  payment elements like Stripe Elements and Stripe Checkout, financial linking like
+  Plaid Link, mapping like Mapbox GL JS and Google Maps Embed, media players from
+  YouTube, Vimeo, and Wistia, chat widgets from Intercom, Drift, Crisp, and Tawk-style
+  services, scheduling widgets like Calendly, forms from HubSpot, Typeform, JotForm
+  and Gravity Forms, identity via Auth0 Lock, chat SDKs from Stream and Sendbird,
+  and embedded analytics from Looker, Apache Superset, Sigma, Cube, Mode, Metabase,
+  Qlik Mashups, SAP BI Tools, Power BI, and Tableau.
+url: https://embeddable.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary
