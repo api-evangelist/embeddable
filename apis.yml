@@ -7,7 +7,7 @@ description: >-
   forms from HubSpot, Typeform, JotForm and Gravity Forms, identity via Auth0 Lock, chat SDKs from Stream and Sendbird, and embedded analytics from Looker, Apache Superset, Sigma, Cube, Mode, Metabase, Qlik Mashups, SAP BI Tools, Power BI,
   and Tableau.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Embeddable
 - Widget
