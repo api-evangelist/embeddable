@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.embeddable.com/deployment/tokens-api
+docs: https://docs.embeddable.com/deployment/tokens-api
+notes: >-
+  No OpenAPI is published, so this profile is captured from the docs rather than
+  derived from a spec. Two layers of auth: (1) a long-lived API key used server-side
+  to call the Public APIs, and (2) short-lived JWT "security tokens" minted by the
+  server and handed to the browser to authorize a specific embed.
+summary:
+  types: [http, jwt]
+  api_key_in: [header]
+  server_side_only: true
+schemes:
+- name: apiKeyBearer
+  type: http
+  scheme: bearer
+  location: header
+  header: Authorization
+  format: "Bearer ${apiKey}"
+  usage: >-
+    Authenticates server-to-server calls to the Public APIs (tokens, embeddables,
+    versions, schemas). Must never be exposed to client code.
+  docs: https://docs.embeddable.com/deployment/embeddables-api
+- name: securityToken
+  type: jwt
+  scheme: bearer
+  usage: >-
+    Short-lived JWT returned by POST /api/v1/security-token, passed to the
+    <em-beddable> web component (token attribute) to authorize a single embed and
+    carry the row-level-security context for the viewing user/tenant.
+  docs: https://docs.embeddable.com/deployment/tokens-api
