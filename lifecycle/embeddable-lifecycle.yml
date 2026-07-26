@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.embeddable.com/deployment/embeddables-api
+versioning:
+  scheme: uri-path
+  current: v1
+  base: https://api.<region>.embeddable.com/api/v1
+  regions: [us, eu]
+  notes: >-
+    Public APIs are versioned in the URI path (/api/v1). Deployment versions of an
+    embeddable (dashboard) are managed via the Versions API — publish/rollback pins a
+    specific version for live embeds so later pushes never disturb published dashboards.
+deployment_versions:
+  docs: https://docs.embeddable.com/deployment/versions-api
+  model: >-
+    Each embeddable:push creates a new version; publishing pins a version per
+    environment (dev/staging/prod).
+deprecation:
+  policy_url: null
+  sunset_header: null
+  notes: No public deprecation policy or RFC 8594 Sunset-header support was found.
+sla:
+  url: null
+status_page: https://status.embeddable.com/
+deprecated_operations: []

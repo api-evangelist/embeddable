@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/embeddable-hq/remarkable-pro-boilerplate/tree/main/.claude/skills/dashboard-as-code
+notes: >-
+  Provider-published Agent Skill, saved verbatim. Embeddable ships a Claude Code skill
+  in the Remarkable Pro boilerplate that scaffolds and edits dashboards as
+  *.embeddable.yml files. No OpenAPI is published, so no operation-grounded API skills
+  are generated.
+skills:
+- file: embeddable-dashboard-as-code.md
+  name: dashboard-as-code
+  description: >-
+    Create, scaffold, or edit Embeddable dashboards declaratively as *.embeddable.yml
+    files (layout, widgets, datasets, variables, events, custom canvas templates).
+  api: null
+  source: https://github.com/embeddable-hq/remarkable-pro-boilerplate/blob/main/.claude/skills/dashboard-as-code/SKILL.md

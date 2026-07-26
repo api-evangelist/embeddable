@@ -1,0 +1,37 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/org/embeddable.com
+notes: >-
+  First-party client libraries published under the @embeddable.com npm scope, from the
+  embeddable-hq/embeddable-sdk monorepo. Remarkable Pro (the production React component
+  suite) and the boilerplate ship via GitHub, not npm. vanilla-components is being
+  sunset in favor of Remarkable Pro.
+packages:
+- language: javascript
+  registry: npm
+  name: "@embeddable.com/react"
+  description: Embeddable React HOCs to embed components.
+  version: 2.13.8
+  url: https://www.npmjs.com/package/@embeddable.com/react
+  install: npm install @embeddable.com/react
+  repo: https://github.com/embeddable-hq/embeddable-sdk
+  official: true
+- language: javascript
+  registry: npm
+  name: "@embeddable.com/core"
+  description: Embeddable SDK core.
+  version: 2.13.8
+  url: https://www.npmjs.com/package/@embeddable.com/core
+  install: npm install @embeddable.com/core
+  repo: https://github.com/embeddable-hq/embeddable-sdk
+  official: true
+- language: javascript
+  registry: npm
+  name: "@embeddable.com/vanilla-components"
+  description: Starter component library (being sunset in favor of Remarkable Pro).
+  version: 1.3.4
+  url: https://www.npmjs.com/package/@embeddable.com/vanilla-components
+  install: npm install @embeddable.com/vanilla-components
+  repo: https://github.com/embeddable-hq/vanilla-components-v1
+  official: true
+  deprecated: true

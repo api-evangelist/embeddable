@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: searched
+notes: >-
+  Probed the standard /.well-known/ discovery surface on the marketing host and the
+  regional API host. No public discovery document was served (the API host requires
+  auth). Recorded for auditability; no WellKnown catalog pointer is wired because
+  nothing returned 200.
+hosts:
+- host: https://embeddable.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+- host: https://api.us.embeddable.com
+  documents:
+  - {path: /.well-known/openid-configuration, status: 401}
+  - {path: /.well-known/oauth-authorization-server, status: 401}

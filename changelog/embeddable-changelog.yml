@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.embeddable.com/whats-new
+docs: https://docs.embeddable.com/whats-new
+scheme: dated
+current_version: null
+notes: >-
+  Embeddable publishes a dated "What's New" page rather than a semver release log.
+  Recent window captured below (dates verbatim from the page).
+entries:
+- date: '2025-09'
+  breaking: false
+  highlights:
+  - Save a dashboard and publish to different environments (dev/staging/prod) with CI/CD support.
+  - Workspace management — team access control via the Manage team menu.
+  - Data Access Policies for row-level security (multiple roles per user, no complex SQL).
+  - Connect to multiple Cube deployments for testing and environment management.
+  - Timezone support for consistent reporting timezone across users.
+  - Time-granularity selection (second, minute, hour, day, week, month, quarter, year).
+- date: '2025-07'
+  breaking: false
+  highlights:
+  - Data Model Editor — create and edit data models directly in the Embeddable UI.
+  - Cube Version Picker — control exactly which Cube.js version your dashboards use.
+  - Sub Inputs for Dimensions & Measures — custom settings per dimension/measure.
+  - Dimension & Measure Variables — dynamically switch displayed metrics on dashboards.

@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.embeddable.com/getting-started/development/introduction
+notes: >-
+  Embeddable's CLI is the code-first developer workflow shipped with the SDK/boilerplate
+  and invoked via npm scripts. There is no standalone globally-installed binary; the
+  commands run against your local repo of components, data models, and dashboards.
+install:
+- method: npm
+  detail: Provided by the Remarkable Pro boilerplate / @embeddable.com SDK; run via package.json scripts.
+commands:
+- command: npm run embeddable:dev
+  group: development
+  description: Start local development against your workspace.
+- command: npm run embeddable:push
+  group: deployment
+  description: >-
+    Push components, data models, and dashboards from your repo to the workspace,
+    creating a new version of each embeddable.

@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.embeddable.com/deployment/embeddables-api
+notes: >-
+  Cross-cutting request/response semantics for the Embeddable Public APIs, captured
+  from the docs (no OpenAPI is published). Cross-links: authentication/, lifecycle/,
+  changelog/.
+authentication:
+  style: bearer-token
+  detail: >-
+    Server-side API key as Authorization: Bearer; browser embeds use a short-lived
+    JWT security token. See authentication/embeddable-authentication.yml.
+  server_side_only: true
+versioning:
+  style: uri-path
+  current: v1
+  regional_hosts: https://api.<region>.embeddable.com
+content_types:
+  request: application/json
+  response: application/json
+  accept: application/json
+idempotency:
+  supported: false
+  notes: No idempotency-key header/contract is documented.
+pagination:
+  supported: unknown
+  notes: The list embeddables endpoint returns a full embeddables[] array; no pagination params are documented.
+error_envelope:
+  documented: false
+  notes: No error-response schema or status-code table is published in the docs.
+rate_limiting:
+  documented: false
+metadata:
+  tags: >-
+    Embeddables (dashboards) carry optional tags for categorization; publish
+    timestamps (lastPublishedAt) are returned per environment.

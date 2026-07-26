@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.embeddable.com/component-libraries/remarkable-pro/introduction
+notes: >-
+  Embeddable is a client-side / embedded-UI product. Dashboards embed as a native web
+  component (no iframe) authorized with a short-lived JWT security token; a React HOC
+  layer and open-source React component libraries provide the charts and controls.
+families:
+- name: Web Component
+  kind: web-component
+  description: >-
+    The native embed surface. A single <em-beddable> custom element renders a
+    published dashboard in any app (React, Vue, or plain HTML) using a security token.
+  loader: "@embeddable.com/js (web component runtime)"
+  docs: https://docs.embeddable.com/
+- name: React HOCs
+  kind: react
+  description: React higher-order components for embedding dashboards natively in React apps.
+  loader: "@embeddable.com/react"
+  package: https://www.npmjs.com/package/@embeddable.com/react
+- name: Remarkable Pro
+  kind: react-component-suite
+  description: >-
+    Production-ready React component suite — core chart types, sensible defaults, and
+    internationalisation. Distributed via the remarkable-pro-boilerplate starter repo.
+  repo: https://github.com/embeddable-hq/remarkable-pro-boilerplate
+  docs: https://docs.embeddable.com/component-libraries/remarkable-pro/introduction
+- name: remarkable-ui
+  kind: react-component-library
+  description: Open-source library of analytics components — charts, dropdowns, tables, and more.
+  repo: https://github.com/embeddable-hq/remarkable-ui
+- name: vanilla-components
+  kind: react-component-library
+  description: Starter component pack (sunset in favor of Remarkable Pro).
+  repo: https://github.com/embeddable-hq/vanilla-components-v1
+  deprecated: true
