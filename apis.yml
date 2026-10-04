@@ -1,5 +1,6 @@
 aid: embeddable
 name: Embeddable
+kind: topic
 description: >-
   An index and topic collection covering embeddable widgets, JavaScript SDKs, iframe-able experiences, and embedded analytics. Embeddable platforms allow product teams to drop pre-built UI components, payment flows, chat widgets,
   media players, forms, maps, dashboards, and authentication experiences directly into a host site or application via a script tag, iframe, or JS SDK. This collection includes payment elements like Stripe Elements and Stripe Checkout,
@@ -9,6 +10,14 @@ description: >-
 type: Index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
+- Embeddable
+- Widgets
+- Embedded Analytics
+- JS SDK
+- Iframe
+- Embed
+- Drop-In UI
+tags_raw:
 - Embeddable
 - Widget
 - Embedded Analytics
