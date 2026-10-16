@@ -14,12 +14,12 @@ meta:
     Mode, Metabase, Qlik Mashups, SAP BI Tools, Power BI, and Tableau.
   tags:
   - Embeddable
-  - Widget
+  - Widgets
   - Embedded Analytics
   - JS SDK
-  - iframe
+  - Iframe
   - Embed
-  - Drop-in UI
+  - Drop-In UI
   portal: https://apievangelist.com
   github: https://github.com/api-evangelist
   repo: embeddable
