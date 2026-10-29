@@ -1,148 +1,163 @@
-# Embeddable (embeddable)
-An index and topic collection covering embeddable widgets, JavaScript SDKs, iframe-able experiences, and embedded analytics. Embeddable platforms allow product teams to drop pre-built UI components, payment flows, chat widgets, media players, forms, maps, dashboards, and authentication experiences directly into a host site or application via a script tag, iframe, or JS SDK. This collection includes payment elements like Stripe Elements and Stripe Checkout, financial linking like Plaid Link, mapping like Mapbox GL JS and Google Maps Embed, media players from YouTube, Vimeo, and Wistia, chat widgets from Intercom, Drift, Crisp, and Tawk-style services, scheduling widgets like Calendly, forms from HubSpot, Typeform, JotForm and Gravity Forms, identity via Auth0 Lock, chat SDKs from Stream and Sendbird, and embedded analytics from Looker, Apache Superset, Sigma, Cube, Mode, Metabase, Qlik Mashups, SAP BI Tools, Power BI, and Tableau.
+# Embeddable
 
-**URL:** [https://apievangelist.com](https://apievangelist.com)
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
 
-## Tags:
+Embeddable is a developer toolkit for building customer-facing, embedded analytics into your own application. Engineers define components, data models, and themes in code (version-controlled in their own repo), and their team assembles and publishes dashboards with either a no-code builder or directly in code. A governed semantic layer built on the open-source Cube modeling language defines metrics, dimensions, and joins once so every chart, dashboard, and AI experience reuses the same trusted definitions. Dashboards embed as native web components (no iframes) authorized with short-lived JWT security tokens, with server-side row-level security for multi-tenant isolation. Embeddable ships the Remarkable Pro React component suite, open-source component libraries, a code-first CLI workflow, and a small set of server-side REST Public APIs (tokens, embeddables, versions, schemas). The platform is SOC 2 Type II certified and GDPR compliant. Embeddable is built by the London team behind Trevor.io.
 
- - Embeddable, Widget, Embedded Analytics, JS SDK, iframe, Embed, Drop-in UI
+**Areas:** Company · Analytics · Embedded Analytics · Business Intelligence · Dashboards · Data Visualization · Semantic Layer · Developer Tools · Software-as-a-Service
 
-## Timestamps
+## Embeddable on APIs.io
 
-- **Created:** 2026-05-19
-- **Modified:** 2026-05-19
+Everything profiled for Embeddable is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/embeddable/](https://apis.io/providers/embeddable/)** — or go straight to one of the APIs or properties below.
 
-## Common Properties
+### APIs (1)
 
-- [Portal](https://apievangelist.com)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - Embed Config Schema](https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/json-schema/embeddable-embed-config-schema.json)
-- [JSONSchema - Widget Instance Schema](https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/json-schema/embeddable-widget-instance-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/json-ld/embeddable-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/vocabulary/embeddable-vocabulary.yaml)
+- [Embeddable Public APIs](https://apis.io/apis/embeddable/embeddable-public-apis/) — Server-side REST APIs for managing Embeddable deployments — mint short-lived JWT security tokens for embeds, list embeddables (dashboards), manage published…
 
-## Features
+### Published properties
 
-| Name | Description |
-|------|-------------|
-| Drop-in UI Components | Embeddable platforms ship pre-built, brandable UI components that drop into a host page via a script tag, web component, or framework binding. |
-| Iframe and Script-Tag Distribution | Most embeddable widgets are delivered as either a hosted iframe or a small JavaScript bootstrap that injects an isolated DOM subtree into the host site. |
-| Tokenized and Scoped Authentication | Embeds use short-lived, server-issued tokens (publishable keys, link tokens, JWTs, session tokens) so the host can render the widget without exposing long-lived credentials. |
-| Theme and Style Customization | Embeds expose theming hooks - color tokens, fonts, CSS variables, layout options - so the embedded experience matches the host product's visual identity. |
-| Postmessage and Callback Event Model | Embedded widgets communicate with the host page through postMessage events, callback functions, or SDK event listeners (ready, success, error, dismiss). |
-| Embedded Analytics and Dashboards | BI vendors like Looker, Sigma, Cube, Mode, Apache Superset, Metabase, Power BI, and Tableau ship embed SDKs and signed iframe URLs for in-product dashboards. |
-| PCI, KYC, and Compliance Offloading | Embeds for payments, identity, and financial data keep sensitive data inside the provider's frame so the host product stays out of PCI, KYC, and compliance scope. |
-| Mobile SDK and Web Parity | Most embeddable platforms ship matching iOS, Android, and React Native SDKs alongside the JS widget so the same experience can be embedded across web and mobile. |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Use Cases
+#### Security (3)
 
-| Name | Description |
-|------|-------------|
-| Accepting Payments Without PCI Scope | Drop Stripe Elements, Stripe Checkout, Braintree Drop-in, Adyen Components, or Square Web Payments SDK into a checkout flow without touching raw PAN data. |
-| Linking Bank Accounts and Financial Data | Embed Plaid Link in a fintech onboarding flow so users can authenticate with their bank and grant data access without leaving the host application. |
-| Embedding Maps and Location Pickers | Drop Mapbox GL JS or the Google Maps Embed into a marketplace, real estate, or logistics product to render interactive maps and place markers. |
-| Adding Live Chat and Support Widgets | Embed Intercom Messenger, Drift, Crisp, Olark, LiveChat, Help Scout Beacon, Zendesk Web Widget, or Freshdesk Messaging through a single script tag. |
-| Inline Scheduling and Booking | Embed Calendly or Cal.com inline widgets into marketing sites and SaaS dashboards so prospects and customers can book meetings without bouncing. |
-| Embedded Forms and Lead Capture | Drop HubSpot Forms, Typeform, JotForm, Gravity Forms, or Formspree into landing pages and product surfaces to capture leads and feedback. |
-| Embedded BI Dashboards in SaaS | SaaS vendors embed Looker, Sigma, Cube, Mode, Apache Superset, Metabase, Knowi, Qlik Mashups, Power BI, SAP BI Tools, or Tableau as in-app dashboards. |
-| Login, Signup, and Identity as a Widget | Embed Auth0 Lock or hosted login pages to give the host product a full identity experience - email/password, social, MFA, passwordless. |
+Authentication, trust centre, and vulnerability disclosure.
 
-## Integrations
+- [Moved to /providers/embeddable/](https://apis.io/security/embeddable/embeddable-authentication/)
+- [Moved to /providers/embeddable/](https://apis.io/security/embeddable/embeddable-domain-security/)
+- [Moved to /providers/embeddable/](https://apis.io/security/embeddable/embeddable-trust-center/)
 
-| Name | Description |
-|------|-------------|
-| Stripe Elements and Checkout | Pre-built UI components and a hosted checkout page that drop into any web or mobile app to accept cards, wallets, ACH, and BNPL. |
-| Plaid Link | Drop-in flow that lets end users authenticate with their bank, link accounts, and grant data access in a few clicks. |
-| Mapbox GL JS | WebGL-based JS SDK for embedding interactive vector maps, custom styles, 3D terrain, and geocoding into web applications. |
-| Google Maps Embed | Iframe-based embed and JavaScript SDK for placing Google Maps, Street View, directions, and search into any host page. |
-| Intercom Messenger | Embeddable customer messaging widget delivered via a single script tag, with conversation routing, tours, and inbox tooling. |
-| Calendly Inline Widget | Embeddable scheduling experience that drops into a host page as an inline widget, popup, or popup text link. |
-| Typeform Embed | Iframe and JS embed for Typeform conversational forms in inline, popup, drawer, side-tab, popover, and full-page modes. |
-| Auth0 Lock and Universal Login | Embeddable login widget and hosted login pages that handle email/password, social, MFA, and passwordless flows. |
-| Looker and Sigma Embedded Analytics | Embedded analytics SDKs and signed iframe URLs for dropping BI dashboards directly into customer-facing SaaS products. |
-| Apache Superset and Cube Embedded | Open-source and headless embedded analytics platforms providing JWT-signed dashboards, charts, and semantic-layer-driven embeds. |
+## Where to find this API
 
-## Artifacts
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-Machine-readable specifications for embeddable widgets and embed sessions.
+- [Website](https://embeddable.com/)
+- [Documentation](https://docs.embeddable.com/)
+- [Getting started](https://docs.embeddable.com/getting-started/get-set-up/quick-start-guide)
+- [API reference](https://docs.embeddable.com/deployment/embeddables-api)
+- [Pricing](https://embeddable.com/pricing)
+- [Sign up](https://embeddable.com/log-in)
+- [Support](https://join.slack.com/t/embeddablecommunity/shared_invite/zt-20b4f6s10-gULqO6riqutJcbUi_FJmZA)
+- [Blog](https://embeddable.com/blog)
+- [Security](https://embeddable.com/security)
+- [Compliance](https://embeddable.com/security)
+- [Terms of service](https://embeddable.com/policies)
+- [Privacy policy](https://embeddable.com/policies)
+- [GitHub](https://github.com/embeddable-hq)
+- [Status](https://status.embeddable.com/)
 
-### JSON Schema
+## API Evangelist rating
 
-- [Embed Config Schema](json-schema/embeddable-embed-config-schema.json)
-- [Widget Instance Schema](json-schema/embeddable-widget-instance-schema.json)
+**Kin Score 44.3** — developing · rubric 0.25.0 · scored 2026-10-23
 
-### JSON Structure
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 78.6 |
+| Access clarity | 60.5 |
 
-- [Embed Config Structure](json-structure/embeddable-embed-config-structure.json)
-- [Widget Instance Structure](json-structure/embeddable-widget-instance-structure.json)
+**Agent readiness 6.1** — agent-aware
 
-### JSON-LD
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | yes |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
-- [Embeddable Context](json-ld/embeddable-context.jsonld)
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
 
-## Vocabulary
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/embeddable/](https://apis.io/providers/embeddable/).
 
-- [Embeddable Vocabulary](vocabulary/embeddable-vocabulary.yaml) — Unified taxonomy mapping 5 resources, 7 actions, 4 workflows, and 4 personas across embeddable widgets, JS SDKs, iframe experiences, and embedded analytics.
+## How this profile is made
 
-## Network
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-This index references the following embeddable widget, JS SDK, iframe, and embedded analytics repositories:
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Embeddable: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- [Adyen](https://github.com/api-evangelist/adyen)
-- [Amplitude](https://github.com/api-evangelist/amplitude)
-- [Apache Superset](https://github.com/api-evangelist/apache-superset)
-- [Auth0](https://github.com/api-evangelist/auth0)
-- [Braintree](https://github.com/api-evangelist/braintree)
-- [Bubble](https://github.com/api-evangelist/bubble)
-- [Cal.com](https://github.com/api-evangelist/cal-com)
-- [Calendly](https://github.com/api-evangelist/calendly)
-- [Canva](https://github.com/api-evangelist/canva)
-- [ChatGPT](https://github.com/api-evangelist/chatgpt)
-- [Crisp](https://github.com/api-evangelist/crisp)
-- [Disqus](https://github.com/api-evangelist/disqus)
-- [DocuSign](https://github.com/api-evangelist/docusign)
-- [Drift](https://github.com/api-evangelist/drift)
-- [Formspree](https://github.com/api-evangelist/formspree)
-- [Freshdesk](https://github.com/api-evangelist/freshdesk)
-- [FullStory](https://github.com/api-evangelist/fullstory)
-- [Google Maps](https://github.com/api-evangelist/google-maps)
-- [Gravity Forms](https://github.com/api-evangelist/gravity-forms)
-- [Heap](https://github.com/api-evangelist/heap)
-- [Help Scout](https://github.com/api-evangelist/helpscout)
-- [Hotjar](https://github.com/api-evangelist/hotjar)
-- [HubSpot](https://github.com/api-evangelist/hubspot)
-- [Intercom](https://github.com/api-evangelist/intercom)
-- [JotForm](https://github.com/api-evangelist/jotform)
-- [Knowi](https://github.com/api-evangelist/knowi)
-- [LiveChat](https://github.com/api-evangelist/livechat)
-- [Looker](https://github.com/api-evangelist/looker)
-- [Mapbox](https://github.com/api-evangelist/mapbox)
-- [Metabase](https://github.com/api-evangelist/metabase)
-- [Mixpanel](https://github.com/api-evangelist/mixpanel)
-- [Olark](https://github.com/api-evangelist/olark)
-- [OpenAI](https://github.com/api-evangelist/openai)
-- [Pendo](https://github.com/api-evangelist/pendo)
-- [Plaid](https://github.com/api-evangelist/plaid)
-- [Power BI](https://github.com/api-evangelist/power-bi)
-- [Qlik Mashups](https://github.com/api-evangelist/qlik-mashups)
-- [SAP BI Tools](https://github.com/api-evangelist/sap-bi-tools)
-- [Segment](https://github.com/api-evangelist/segment)
-- [Sendbird](https://github.com/api-evangelist/sendbird)
-- [SoundCloud](https://github.com/api-evangelist/soundcloud)
-- [Square](https://github.com/api-evangelist/square)
-- [Stream](https://github.com/api-evangelist/stream-io)
-- [Stripe](https://github.com/api-evangelist/stripe)
-- [Tableau](https://github.com/api-evangelist/tableau)
-- [Twilio](https://github.com/api-evangelist/twilio)
-- [Typeform](https://github.com/api-evangelist/typeform)
-- [Userpilot](https://github.com/api-evangelist/userpilot)
-- [Vimeo](https://github.com/api-evangelist/vimeo)
-- [Wistia](https://github.com/api-evangelist/wistia)
-- [YouTube](https://github.com/api-evangelist/youtube)
-- [Zendesk](https://github.com/api-evangelist/zendesk)
+## Open an issue
 
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/embeddable/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
